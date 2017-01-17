@@ -1,0 +1,911 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+100 items
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$BooleanCliOption.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$CliOptionParser$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$CliOptionParser$BooleanCliOptionParser$$anonfun$parse$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$CliOptionParser$BooleanCliOptionParser$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$CliOptionParser.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Dependencies$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Dependencies.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$2.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$3$$anonfun$4.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$3.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$projectSettings$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$projectSettings$2.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$projectSettings$4.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$projectSettings$5$$anonfun$apply$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$projectSettings$5.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$CliOptions$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/ScaladocNoVerificationOfDiagrams$$anonfun$projectSettings$3.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/ScaladocNoVerificationOfDiagrams$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/ScaladocNoVerificationOfDiagrams.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$8$$anonfun$apply$6.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$8$$anonfun$apply$7.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$8$$anonfun$apply$8$$anonfun$apply$9.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$8$$anonfun$apply$8.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$8.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$9.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$5$$anonfun$apply$2.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$5$$anonfun$apply$3.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$5$$anonfun$apply$4$$anonfun$apply$5.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$5$$anonfun$apply$4.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$5.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$6.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$7.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$8.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$projectSettings$6.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$projectSettings$7.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$settings$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$settings$2.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$settings$3.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$CliOptions$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/GitHub$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/GitHub.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$10.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$11.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$12.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$13.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$14.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$15.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$16.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$17.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$18.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$19.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$2.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$20.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$21.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$3.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$4.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$5.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$6.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$7.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$8.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$9.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$configServiceDockerSettings$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$configServiceDockerSettings$2.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$configServiceDockerSettings$3.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$configServiceDockerSettings$4.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$2.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$3.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$4.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$5.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$6.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$7.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$8.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$9.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$formatSettings$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$formatSettings$2.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$10.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$11.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$2.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$3.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$4.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$5.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$6.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$7.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$8.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$9.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$siteSettings$1.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$.class
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings.class
+binary dependencies:
+34 items
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> /Users/smichaels/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> /Users/smichaels/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-unidoc/jars/sbt-unidoc-0.3.3.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> /Users/smichaels/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/actions/jars/actions-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/org.scala-sbt/testing/jars/testing-0.13.11.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/org.scalariform/scalariform_2.10/jars/scalariform_2.10-0.1.8.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-unidoc/jars/sbt-unidoc-0.3.3.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-ghpages/jars/sbt-ghpages-0.5.4.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-git/jars/sbt-git-0.8.5.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-multi-jvm/jars/sbt-multi-jvm-0.3.9.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-native-packager/jars/sbt-native-packager-1.0.6.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-site/jars/sbt-site-0.8.2.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/org.scalariform/sbt-scalariform/jars/sbt-scalariform-1.6.0.jar
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+3 items
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> /Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+100 items
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> cswbuild.CliOption
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> cswbuild.CliOption$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> cswbuild.CliOption$BooleanCliOption
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> cswbuild.CliOption$CliOptionParser
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> cswbuild.CliOption$CliOptionParser$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> cswbuild.CliOption$CliOptionParser$BooleanCliOptionParser$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> cswbuild.CliOption$CliOptionParser$BooleanCliOptionParser$$anonfun$parse$1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> Dependencies
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> Dependencies$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$$anonfun$1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$$anonfun$2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$$anonfun$3
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$$anonfun$3$$anonfun$4
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$$anonfun$projectSettings$1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$$anonfun$projectSettings$2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$$anonfun$projectSettings$4
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$$anonfun$projectSettings$5
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$$anonfun$projectSettings$5$$anonfun$apply$1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Scaladoc$CliOptions$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.ScaladocNoVerificationOfDiagrams
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.ScaladocNoVerificationOfDiagrams$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.ScaladocNoVerificationOfDiagrams$$anonfun$projectSettings$3
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Unidoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Unidoc$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Unidoc$$anonfun$projectSettings$8
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Unidoc$$anonfun$projectSettings$8$$anonfun$apply$6
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Unidoc$$anonfun$projectSettings$8$$anonfun$apply$7
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Unidoc$$anonfun$projectSettings$8$$anonfun$apply$8
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Unidoc$$anonfun$projectSettings$8$$anonfun$apply$8$$anonfun$apply$9
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.Unidoc$$anonfun$projectSettings$9
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$5
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$5$$anonfun$apply$2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$5$$anonfun$apply$3
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$5$$anonfun$apply$4
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$5$$anonfun$apply$4$$anonfun$apply$5
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$6
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$7
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$8
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$projectSettings$6
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$projectSettings$7
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$settings$1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$settings$2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$$anonfun$settings$3
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild.UnidocRoot$CliOptions$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> cswbuild.GitHub
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> cswbuild.GitHub$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$10
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$11
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$12
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$13
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$14
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$15
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$16
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$17
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$18
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$19
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$20
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$21
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$3
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$4
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$5
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$6
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$7
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$8
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$9
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$configServiceDockerSettings$1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$configServiceDockerSettings$2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$configServiceDockerSettings$3
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$configServiceDockerSettings$4
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$defaultSettings$1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$defaultSettings$2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$defaultSettings$3
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$defaultSettings$4
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$defaultSettings$5
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$defaultSettings$6
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$defaultSettings$7
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$defaultSettings$8
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$defaultSettings$9
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$formatSettings$1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$formatSettings$2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$10
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$11
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$3
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$4
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$5
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$6
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$7
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$8
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$packageSettings$9
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings$$anonfun$siteSettings$1
+used names:
+447 items
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> &&
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> <byname>
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> <init>
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> ==
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> A
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> Any
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> AnyRef
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> Boolean
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> BooleanCliOption
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> BooleanCliOptionParser
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> CliOption
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> CliOptionParser
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> None
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> Nothing
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> Option
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> Predef
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> Product
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> ScalaRunTime
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> Serializable
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> String
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> T
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> _hashCode
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> _root_
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> _toString
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> a
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> asInstanceOf
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> augmentString
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> cliOption
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> cswbuild
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> default
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> eq
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> ev
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> get
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> getOrElse
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> isInstanceOf
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> package
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> parse
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> path
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> props
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> runtime
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> scala
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> sys
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> toBoolean
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> toString
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> typedProductIterator
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> value
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> ||
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> %
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> %%
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> <init>
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> AnyRef
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> Dependencies
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> HikariCP
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> StringContext
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaActor
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaHttp
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaHttpCore
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaHttpSprayJson
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaHttpTestKit
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaKernel
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaMultiNodeTest
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaRemote
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaSlf4j
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaSse
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaStream
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaStreamTestKit
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaStreamsVersion
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaTestKit
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> akkaVersion
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> alarms
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> assertj
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> ccs
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> containerCmd
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> cs
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> events
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> ficus
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> from
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> hornetqNative
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> hornetqServer
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> hornetqVersion
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> janino
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> jeromq
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> jgit
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> jline
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> jmdns
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> jsonSchemaValidator
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> junit
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> junitInterface
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> loc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> logback
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> logstashLogbackEncoder
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> package
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> pkg
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> postgresql
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> protobufJava
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> redisScala
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> s
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> sbt
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> scala
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> scalaCompiler
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> scalaJava8Compat
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> scalaLibrary
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> scalaLogging
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> scalaPickling
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> scalaReflect
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> scalaTest
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> scalaVersion
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> scopt
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> seqSupport
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> slick
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> specs2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> svnkit
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> toGroupID
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> ts
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> upickle
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> util
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> $p1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> &&
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> +
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ++
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ++=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> +=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> --
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> :::
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> :=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> <++=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> <init>
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> AList
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> AnyRef
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Append
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> AutoPlugin
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Boolean
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> BooleanCliOptionParser
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> CliOption
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> CliOptionParser
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> CliOptions
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Codec
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Compile
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ConfigKey
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Def
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Exception
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> File
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> FullInstance
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Genjavadoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> GitHub
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Global
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> IllegalStateException
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> InitializeInstance
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> InputWrapper
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> JavaUnidoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> JvmPlugin
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Keys
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> List
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ManifestFactory
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Nil
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Option
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Plugin
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Predef
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Project
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ScalaUnidoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Scaladoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ScaladocNoVerificationOfDiagrams
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ScopeAxis
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Scoped
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Seq
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> SettingKey
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Source
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> String
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ThisBuild
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> UTF8
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> Unidoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> UnidocKeys
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> UnidocRoot
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> _1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> _2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> allRequirements
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> annotation
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> apiMappings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> app
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> append1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> appendN
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> appendSeq
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> apply
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> autoAPIMappings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> base
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> baseDirectory
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> canBuildFrom
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> close
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> collection
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> configurationToKey
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> contains
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> cswbuild
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> curr
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> dirs
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> doc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> docProjectFilter
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> docs
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> e
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> empty
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> endsWith
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> equals
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> exists
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> f
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> file
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> files
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> filterNot
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> findHTMLFileWithDiagram
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> foldLeft
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> fromFile
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> genjavadocEnabled
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> genjavadocExtraSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> get
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> getAbsolutePath
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> getLines
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> getName
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> getOrElse
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> getPath
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> hasDiagram
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> hd
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> head
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ifTrue
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ignoreAggregates
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ignoreProjects
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> immutable
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> in
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> inAggregates
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> inAnyProject
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> inProjects
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> inTask
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> io
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> isDirectory
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> isEmpty
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> java
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> javacOptions
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> lang
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> listFiles
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> macroValueI
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> macroValueIT
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> map
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> name
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ne
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> newDirs
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> noTrigger
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> option2Iterable
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> opts
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> package
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> partition
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> plugins
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> projectSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> projectToRef
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> pure
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> refArrayOps
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> reflect
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> rest
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> sbt
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> sbtunidoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> scala
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> scalaJavaUnidocSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> scalaUnidocSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> scalacOptions
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> scaladocAutoAPI
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> scaladocDiagramsEnabled
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> scaladocOptions
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> scaladocVerifier
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> scopeAxisToScope
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> set
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> settingKey
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> source
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> sources
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> startsWith
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> t2ToTable2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> tail
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> tailrec
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> toITask
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> toList
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> transform
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> tuple2
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> unary_!
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> unchecked
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> unidoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> unidocGenjavadocVersion
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> unidocProjectFilter
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> url
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> urlString
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> validateDiagrams
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> value
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ver
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> version
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> withoutAggregates
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> wrapInitTask_☃☃
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> wrapInit_☃☃
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ||
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> ~=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> +
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> <init>
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> AnyRef
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> GitHub
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> Predef
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> String
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> branch
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> cswbuild
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> endsWith
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> scala
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> v
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> +
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> ++
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> ++=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> +=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> :=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> <init>
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> AlignParameters
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> AlignSingleLineCaseStatements
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> AnyRef
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Append
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Argument
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Compile
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> ConfigKey
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Def
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Dependencies
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> DoubleIndentClassDeclaration
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> FormattingPreferences
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> FullInstance
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Global
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> InitializeInstance
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> InputWrapper
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> JUnit
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Keys
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> MultiJvm
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> MultiJvmKeys
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Plugin
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Predef
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Resolver
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> RewriteArrowSymbols
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Rpm
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> SbtGhPages
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> SbtGit
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> SbtMultiJvm
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> SbtNativePackager
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> SbtScalariform
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> SbtSite
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> ScalariformKeys
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> ScopeAxis
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Seq
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Settings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> String
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> StringContext
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Tags
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Test
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> TestFrameworks
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Tests
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> ThisBuild
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> UnidocKeys
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> Version
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> annex
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> any2stringadd
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> append1
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> appendN
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> appendSeq
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> apply
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> at
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> autoAPIMappings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> baseDirectory
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> bashScriptExtraDefines
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> buildSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> canBuildFrom
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> collection
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> com
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> compile
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> concurrentRestrictions
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> configServiceDockerSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> configurationToKey
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> crossPaths
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> dataVol
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> defaultSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> desc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> doc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> docker
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> dockerBaseImage
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> dockerCommands
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> dockerEntrypoint
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> fork
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> formatSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> formatter
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> formattingPreferences
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> ghpages
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> git
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> immutable
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> in
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> includeScaladoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> javaOptions
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> javacOptions
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> jcenterRepo
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> jvmOptions
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> limit
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> logBuffered
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> macroValueI
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> maintainer
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> map
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> name
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> organization
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> organizationHomepage
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> organizationName
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> package
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> packageDescription
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> packageSummary
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> packager
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> parallelExecution
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> preferences
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> preprocessSite
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> pure
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> remoteRepo
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> resolvers
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> rpmGroup
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> rpmLicense
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> rpmRelease
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> rpmUrl
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> rpmVendor
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> run
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> s
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> sbt
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> sbtResolver
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> sbtunidoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> scala
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> scalaVersion
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> scalacOptions
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> scalariform
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> scalariformSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> scopeAxisToScope
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> set
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> setPreference
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> settings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> site
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> siteSettings
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> sonatypeRepo
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> summary
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> svnrepo
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> testOptions
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> toITask
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> toRepositoryName
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> typesafe
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> typesafeRepo
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> unidoc
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> url
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> value
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> version
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> wrapInit_☃☃
+product stamps:
+100 items
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Dependencies$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Dependencies.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$10.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$11.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$12.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$13.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$14.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$15.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$16.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$17.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$18.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$19.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$2.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$20.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$21.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$3.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$4.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$5.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$6.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$7.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$8.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$9.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$configServiceDockerSettings$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$configServiceDockerSettings$2.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$configServiceDockerSettings$3.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$configServiceDockerSettings$4.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$2.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$3.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$4.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$5.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$6.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$7.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$8.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$defaultSettings$9.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$formatSettings$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$formatSettings$2.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$10.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$11.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$2.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$3.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$4.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$5.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$6.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$7.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$8.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$packageSettings$9.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$$anonfun$siteSettings$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/Settings.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$BooleanCliOption.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$CliOptionParser$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$CliOptionParser$BooleanCliOptionParser$$anonfun$parse$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$CliOptionParser$BooleanCliOptionParser$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption$CliOptionParser.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/CliOption.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/GitHub$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/GitHub.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$2.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$3$$anonfun$4.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$3.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$projectSettings$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$projectSettings$2.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$projectSettings$4.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$projectSettings$5$$anonfun$apply$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$$anonfun$projectSettings$5.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc$CliOptions$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Scaladoc.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/ScaladocNoVerificationOfDiagrams$$anonfun$projectSettings$3.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/ScaladocNoVerificationOfDiagrams$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/ScaladocNoVerificationOfDiagrams.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$8$$anonfun$apply$6.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$8$$anonfun$apply$7.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$8$$anonfun$apply$8$$anonfun$apply$9.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$8$$anonfun$apply$8.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$8.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$$anonfun$projectSettings$9.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/Unidoc.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$5$$anonfun$apply$2.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$5$$anonfun$apply$3.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$5$$anonfun$apply$4$$anonfun$apply$5.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$5$$anonfun$apply$4.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$5.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$6.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$7.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$8.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$projectSettings$6.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$projectSettings$7.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$settings$1.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$settings$2.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$$anonfun$settings$3.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot$CliOptions$.class -> lastModified(1483483210000)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/target/scala-2.10/sbt-0.13/classes/cswbuild/UnidocRoot.class -> lastModified(1483483210000)
+source stamps:
+5 items
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> hash(a05fb5547d34b979d68e94e82f1bdcce9f78653b)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> hash(0a4efc0d6752390808581c3c81e475a64a9454e9)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> hash(0bfe824b6b2372caf6951fd1745da7fdf8172681)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> hash(5b7bb669240581b838c483b168800dbe49c947fd)
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> hash(066ca1dfc88117fa8216e570f04216c1baa79f8f)
+binary stamps:
+18 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1474584629000)
+/Users/smichaels/.ivy2/cache/org.scala-sbt/actions/jars/actions-0.13.11.jar -> lastModified(1456100160000)
+/Users/smichaels/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.11.jar -> lastModified(1456100090000)
+/Users/smichaels/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.11.jar -> lastModified(1456100124000)
+/Users/smichaels/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.11.jar -> lastModified(1456100137000)
+/Users/smichaels/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.11.jar -> lastModified(1456100157000)
+/Users/smichaels/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.11.jar -> lastModified(1456100154000)
+/Users/smichaels/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.11.jar -> lastModified(1456100110000)
+/Users/smichaels/.ivy2/cache/org.scala-sbt/testing/jars/testing-0.13.11.jar -> lastModified(1456100133000)
+/Users/smichaels/.ivy2/cache/org.scalariform/scalariform_2.10/jars/scalariform_2.10-0.1.8.jar -> lastModified(1449791781000)
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-unidoc/jars/sbt-unidoc-0.3.3.jar -> lastModified(1432136518000)
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-ghpages/jars/sbt-ghpages-0.5.4.jar -> lastModified(1441327875000)
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-git/jars/sbt-git-0.8.5.jar -> lastModified(1441326314000)
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-multi-jvm/jars/sbt-multi-jvm-0.3.9.jar -> lastModified(1421417616000)
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-native-packager/jars/sbt-native-packager-1.0.6.jar -> lastModified(1449518206000)
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-site/jars/sbt-site-0.8.2.jar -> lastModified(1444058051000)
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/org.scalariform/sbt-scalariform/jars/sbt-scalariform-1.6.0.jar -> lastModified(1449793890000)
+/Users/smichaels/.sbt/boot/scala-2.10.6/lib/scala-library.jar -> lastModified(1442568926000)
+class names:
+18 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/smichaels/.ivy2/cache/org.scala-sbt/actions/jars/actions-0.13.11.jar -> sbt.TestOption
+/Users/smichaels/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.11.jar -> sbt.Init
+/Users/smichaels/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.11.jar -> sbt.impl.RepositoryName
+/Users/smichaels/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.11.jar -> sbt.Global$
+/Users/smichaels/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.11.jar -> sbt.Tags$
+/Users/smichaels/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.11.jar -> sbt.package$
+/Users/smichaels/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.11.jar -> sbt.Task
+/Users/smichaels/.ivy2/cache/org.scala-sbt/testing/jars/testing-0.13.11.jar -> sbt.TestFrameworks$
+/Users/smichaels/.ivy2/cache/org.scalariform/scalariform_2.10/jars/scalariform_2.10-0.1.8.jar -> scalariform.formatter.preferences.AlignParameters$
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-unidoc/jars/sbt-unidoc-0.3.3.jar -> sbtunidoc.Plugin$
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-ghpages/jars/sbt-ghpages-0.5.4.jar -> com.typesafe.sbt.SbtGhPages$
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-git/jars/sbt-git-0.8.5.jar -> com.typesafe.sbt.SbtGit$
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-multi-jvm/jars/sbt-multi-jvm-0.3.9.jar -> com.typesafe.sbt.SbtMultiJvm$
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-native-packager/jars/sbt-native-packager-1.0.6.jar -> com.typesafe.sbt.packager.docker.DockerKeys
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-site/jars/sbt-site-0.8.2.jar -> com.typesafe.sbt.SbtSite$
+/Users/smichaels/.ivy2/cache/scala_2.10/sbt_0.13/org.scalariform/sbt-scalariform/jars/sbt-scalariform-1.6.0.jar -> com.typesafe.sbt.SbtScalariform
+/Users/smichaels/.sbt/boot/scala-2.10.6/lib/scala-library.jar -> scala.collection.generic.GenericCompanion
+internal apis:
+5 items
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD88iT7AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwAc9PP3QAFkJvb2xlYW5DbGlPcHRpb25QYXJzZXJzcQB+AAtniH+2dAAQQm9vbGVhbkNsaU9wdGlvbnVxAH4ACQAAACRzcQB+AAsW6cjldAAGbm90aWZ5c3EAfgALSLyfk3QAB3VuYXBwbHlzcQB+AAuMije8dAAEd2FpdHNxAH4AC0KWTRZ0AA0kYXNJbnN0YW5jZU9mc3EAfgALKIWPaXQADHByb2R1Y3RBcml0eXNxAH4ACxpLmcd0AAZlcXVhbHNzcQB+AAsqhs+NdAAMYXNJbnN0YW5jZU9mc3EAfgALoMUtWnQADHN5bmNocm9uaXplZHNxAH4AC5ErkUJ0AA0kaXNJbnN0YW5jZU9mc3EAfgALSpdOW3QAB3ZhbHVlJDFzcQB+AAsuLKhRdAAIY2FuRXF1YWxzcQB+AAue31fldAANcHJvZHVjdFByZWZpeHNxAH4AC/8jlMR0AAlDbGlPcHRpb25zcQB+AAt6JsZhdAAJbm90aWZ5QWxsc3EAfgALFOFC3XQADGlzSW5zdGFuY2VPZnNxAH4AC4XQhWF0AAY8aW5pdD5zcQB+AAulNOj8dAAFYXBwbHlzcQB+AAtyRQITdAAFcGFyc2VzcQB+AAto4z4AdAACPT1zcQB+AAuQGQw6dAAGaWZUcnVlc3EAfgAL6e0q1HQABWNsb25lc3EAfgALGjrzuHQABiRpbml0JHNxAH4AC/5p+p90AARjb3B5c3EAfgALEKPe4HQACHRvU3RyaW5nc3EAfgALQzAAD3QAAiE9c3EAfgALYN0dT3QAA2dldHNxAH4AC8+Mjgp0AAhnZXRDbGFzc3NxAH4ACwWOY/50AA5jb3B5JGRlZmF1bHQkMXNxAH4ACzlciJt0AAJuZXNxAH4AC3ah6GZ0AAJlcXNxAH4AC0MppKh0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAsZhOnEdAACIyNzcQB+AAsgn3EIdAAIZmluYWxpemVzcQB+AAuR1o/cdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAtrXkwWdAAIaGFzaENvZGVzcQB+AAvVcDlydAAPQ2xpT3B0aW9uUGFyc2Vyc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AY3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAEmNzd2J1aWxkLkNsaU9wdGlvbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAABc3IAF3hzYnRpLmFwaS5UeXBlUGFyYW1ldGVyZ2lV2+NykGsCAAZbAAthbm5vdGF0aW9uc3EAfgBoTAACaWRxAH4ADEwACmxvd2VyQm91bmR0ABBMeHNidGkvYXBpL1R5cGU7WwAOdHlwZVBhcmFtZXRlcnNxAH4AZUwACnVwcGVyQm91bmRxAH4AdkwACHZhcmlhbmNldAAUTHhzYnRpL2FwaS9WYXJpYW5jZTt4cHVxAH4AbgAAAAB0ABRjc3didWlsZC5DbGlPcHRpb24uVHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHB0AAdOb3RoaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB9c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCKdXEAfgBzAAAAAHNxAH4Ae3QAA0FueXEAfgCDfnIAEnhzYnRpLmFwaS5WYXJpYW5jZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACUludmFyaWFudH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhxAH4Ak3QACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHEAfgB9c3EAfgCbc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGNMAAlpbmhlcml0ZWRxAH4AY0wAB3BhcmVudHNxAH4AY3hxAH4AfnNxAH4Am3VxAH4AXgAAAABzcQB+AJt1cQB+AF4AAAAAc3EAfgCbdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcQB+AHt0AAxTZXJpYWxpemFibGVzcQB+AIFzcQB+AIR1cQB+AIcAAAACc3EAfgCJcQB+AIxxAH4AjnNxAH4Ae3EAfgCrc3EAfgCBc3EAfgCEdXEAfgCHAAAAA3NxAH4AiXQABGphdmFzcQB+AIl0AAJpb3EAfgCOc3EAfgB7dAAHUHJvZHVjdHEAfgCsc3EAfgB7dAAGRXF1YWxzcQB+AKxzcQB+AHt0AAZPYmplY3RzcQB+AIFzcQB+AIR1cQB+AIcAAAADc3EAfgCJcQB+ALVzcQB+AIl0AARsYW5ncQB+AI5zcQB+AHtxAH4AkXEAfgCsc3EAfgBgcQB+AG11cQB+AG4AAAAAc3EAfgBwAHQAEmNzd2J1aWxkLkNsaU9wdGlvbnVxAH4AcwAAAAB+cQB+AJZ0AAZNb2R1bGV1cQB+AJkAAAAAc3EAfgCbcQB+AJ9zcQB+AJtzcQB+AKFzcQB+AJt1cQB+AF4AAAAAc3EAfgCbdXEAfgBeAAAAAHNxAH4Am3VxAH4AqAAAAARzcQB+AHtxAH4Aq3NxAH4AgXNxAH4AhHVxAH4AhwAAAAJzcQB+AIlxAH4AjHEAfgCOc3EAfgB7cQB+AKtzcQB+AIFzcQB+AIR1cQB+AIcAAAADc3EAfgCJcQB+ALVzcQB+AIl0AAJpb3EAfgCOc3EAfgB7cQB+AL1zcQB+AIFzcQB+AIR1cQB+AIcAAAADc3EAfgCJcQB+ALVzcQB+AIlxAH4Aw3EAfgCOc3EAfgB7cQB+AJFxAH4A13VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQACGNzd2J1aWxkc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFZZn1VzXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AHQvVXNlcnMvc21pY2hhZWxzL0Rlc2t0b3AvUHJvamVjdHMvQVBTL0FQUyBJQ1MvU3RpbXVsdXMgUHJvdG90eXBlL3N0aW11bHVzL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKBftVR9NLl51o6U6C8b3M6feGU7
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCKlgn7AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAATXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHnsYWR0AAZub3RpZnlzcQB+AAxBUj63dAATanNvblNjaGVtYVZhbGlkYXRvcnNxAH4ADFjyyWx0AAxwcm90b2J1ZkphdmFzcQB+AAwBljCCdAAHbG9nYmFja3NxAH4ADGZUv/R0AAlha2thQWN0b3JzcQB+AAz/0Uf7dAAEd2FpdHNxAH4ADO/RSQh0AAlzY2FsYVRlc3RzcQB+AAzW8nt4dAANJGFzSW5zdGFuY2VPZnNxAH4ADKmU/sR0AANjY3NzcQB+AAzzK3dadAAEdXRpbHNxAH4ADIzAiLd0AAxzY2FsYVJlZmxlY3RzcQB+AAyq6NbcdAAFc2xpY2tzcQB+AAxht1eAdAAGZXF1YWxzc3EAfgAMU2rRO3QAD2Fra2FIdHRwVGVzdEtpdHNxAH4ADGLfgtF0ABZsb2dzdGFzaExvZ2JhY2tFbmNvZGVyc3EAfgAMEbXXP3QABWpsaW5lc3EAfgAMgg2lxHQABWp1bml0c3EAfgAMB+s49nQAAmNzc3EAfgAMSOrv43QADGFzSW5zdGFuY2VPZnNxAH4ADNkIsVB0AA5qdW5pdEludGVyZmFjZXNxAH4ADE1Qjit0ABFha2thU3RyZWFtVGVzdEtpdHNxAH4ADH9cBkN0AAlha2thU2xmNGpzcQB+AAzehCWvdAACdHNzcQB+AAzGn+VVdAAMc3luY2hyb25pemVkc3EAfgAMIwFamHQADERlcGVuZGVuY2llc3NxAH4ADKlGoF90AANwa2dzcQB+AAy3Ug9IdAANJGlzSW5zdGFuY2VPZnNxAH4ADJw2zft0AA1zY2FsYVBpY2tsaW5nc3EAfgAMCJw31nQADGNvbnRhaW5lckNtZHNxAH4ADB0b8x50AAVmaWN1c3NxAH4ADHECdfF0AAVzY29wdHNxAH4ADKNS/KJ0AApyZWRpc1NjYWxhc3EAfgAMfOmdnXQACEhpa2FyaUNQc3EAfgAM35m6L3QADHNjYWxhVmVyc2lvbnNxAH4ADCwLGbR0AAlub3RpZnlBbGxzcQB+AAxSSPEPdAAKYWtrYVJlbW90ZXNxAH4ADDlX5Up0AApwb3N0Z3Jlc3Fsc3EAfgAMTkbvE3QACmFra2FTdHJlYW1zcQB+AAy+q6cWdAAOaG9ybmV0cVZlcnNpb25zcQB+AAxJlPJGdAAMaXNJbnN0YW5jZU9mc3EAfgAMDQtv2HQABmFsYXJtc3NxAH4ADNzv0Z50AAd1cGlja2xlc3EAfgAMJb/mFXQAC2Fra2FWZXJzaW9uc3EAfgAMfqzZGnQAB2Fzc2VydGpzcQB+AAxIlZ8FdAAIYWtrYUh0dHBzcQB+AAx9GqMhdAAMc2NhbGFMaWJyYXJ5c3EAfgAMC5cduXQAAj09c3EAfgAM/cFRVnQABWNsb25lc3EAfgAM2IR+N3QABGpnaXRzcQB+AAxhIXLodAAQc2NhbGFKYXZhOENvbXBhdHNxAH4ADCGJ/rN0AA1ob3JuZXRxU2VydmVyc3EAfgAMKKdcRXQACHRvU3RyaW5nc3EAfgAMltO9lnQAA2xvY3NxAH4ADKGmeOV0AAIhPXNxAH4ADLjLD6l0AA1zY2FsYUNvbXBpbGVyc3EAfgAMbfIkzXQABWptZG5zc3EAfgAMpuY5bXQACGdldENsYXNzc3EAfgAMGPZMnXQADHNjYWxhTG9nZ2luZ3NxAH4ADIz88C50AAZqZXJvbXFzcQB+AAw3MqNcdAANaG9ybmV0cU5hdGl2ZXNxAH4ADMWCyMV0AAJuZXNxAH4ADEd7RIV0AAtha2thVGVzdEtpdHNxAH4ADKqU0ux0AAxha2thSHR0cENvcmVzcQB+AAxusbRKdAARYWtrYUh0dHBTcHJheUpzb25zcQB+AAyuRKG9dAAKc2VxU3VwcG9ydHNxAH4ADFwLJh90AAZzdm5raXRzcQB+AAzH1McBdAAGamFuaW5vc3EAfgAMqdyLbHQACmFra2FLZXJuZWxzcQB+AAyqt5ZndAACZXFzcQB+AAzYh7KHdAAGZXZlbnRzc3EAfgAMr89AnXQAEWFra2FNdWx0aU5vZGVUZXN0c3EAfgAMlviZOnQABnNwZWNzMnNxAH4ADMr3xxd0AAIjI3NxAH4ADEgBG+N0AAhmaW5hbGl6ZXNxAH4ADCkErzR0AAhoYXNoQ29kZXNxAH4ADGGMtjB0AAdha2thU3Nlc3EAfgAMYSsVCHQAEmFra2FTdHJlYW1zVmVyc2lvbnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ALF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AP3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AyHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCxTAAJaW5oZXJpdGVkcQB+ALFMAAdwYXJlbnRzcQB+ALF4cQB+AM1zcQB+AMh1cQB+AKwAAAAAc3EAfgDIdXEAfgCsAAAAAHNxAH4AyHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AzHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AzHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4A5XQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4A5nNxAH4A2XQAA0FueXNxAH4A3XNxAH4A4HVxAH4A4wAAAAJzcQB+AOV0AAVzY2FsYXEAfgDsdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVlmfVXNdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAdC9Vc2Vycy9zbWljaGFlbHMvRGVza3RvcC9Qcm9qZWN0cy9BUFMvQVBTIElDUy9TdGltdWx1cyBQcm90b3R5cGUvc3RpbXVsdXMvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUCk78DWdSOQgIWBw8geR1pkqUVOk=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBZvx4rAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAL3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cISFnVF0AAZpc1Jvb3RzcQB+AAzxKncHdAAGbm90aWZ5c3EAfgAMFVjDanQAFXByb2plY3RDb25maWd1cmF0aW9uc3NxAH4ADHmLerp0AAR3YWl0c3EAfgAMagzLCXQADSRhc0luc3RhbmNlT2ZzcQB+AAzA7p6bdAAFZW1wdHlzcQB+AAydSkq1dAARZ2VuamF2YWRvY0VuYWJsZWRzcQB+AAwNasg9dAAGZXF1YWxzc3EAfgAMhbRcd3QACW5vVHJpZ2dlcnNxAH4ADItroTN0AAxhc0luc3RhbmNlT2ZzcQB+AAz5EZF5dAAMc3luY2hyb25pemVkc3EAfgAMcTfPenQAB3VuYXJ5XyFzcQB+AAzuOSwZdAALY3N3U2V0dGluZ3NzcQB+AAyX04DRdAAFbGFiZWxzcQB+AAylsFrNdAANJGlzSW5zdGFuY2VPZnNxAH4ADGOyTSd0ACBTY2FsYWRvY05vVmVyaWZpY2F0aW9uT2ZEaWFncmFtc3NxAH4ADES2N650AA9hbGxSZXF1aXJlbWVudHNzcQB+AAyxa7WmdAAPaXNBbHdheXNFbmFibGVkc3EAfgAMgMoU3XQACW5vdGlmeUFsbHNxAH4ADPsAq3J0AA9zY2FsYWRvY09wdGlvbnNzcQB+AAy5ILAadAAMaXNJbnN0YW5jZU9mc3EAfgAMqXxYrHQADmdsb2JhbFNldHRpbmdzc3EAfgAMold3mHQAD3Byb2plY3RTZXR0aW5nc3NxAH4ADGTe3vd0AAZVbmlkb2NzcQB+AAz5pt4jdAAQdmFsaWRhdGVEaWFncmFtc3NxAH4ADFWs+m50AAI9PXNxAH4ADNJhGZd0AAVjbG9uZXNxAH4ADAy1Sht0AApDbGlPcHRpb25zc3EAfgAMF8aVhXQABiRpbml0JHNxAH4ADCbkxZd0AApVbmlkb2NSb290c3EAfgAMWPpzKnQACHRvU3RyaW5nc3EAfgAMOOBN7HQAF3NjYWxhZG9jRGlhZ3JhbXNFbmFibGVkc3EAfgAMXDIFfXQACHJlcXVpcmVzc3EAfgAMyM3njHQAAiE9c3EAfgAMkl7ax3QAAiYmc3EAfgAMmADARXQACGdldENsYXNzc3EAfgAMmsZZfHQACFNjYWxhZG9jc3EAfgAMJuWrpnQAEHNjYWxhZG9jVmVyaWZpZXJzcQB+AAzXhU4xdAACbmVzcQB+AAwrh/igdAAPc2NhbGFkb2NBdXRvQVBJc3EAfgAMoNtC23QADWJ1aWxkU2V0dGluZ3NzcQB+AAyi1XWvdAACZXFzcQB+AAxP5Uz9dAAIc2V0dGluZ3NzcQB+AAwLH5lldAACIyNzcQB+AAwhVcvOdAAIZmluYWxpemVzcQB+AAyCbvlidAAIaGFzaENvZGVzcQB+AAxeFo29dAAHdHJpZ2dlcnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAARzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABFjc3didWlsZC5TY2FsYWRvY3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AjXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgB1TAAJaW5oZXJpdGVkcQB+AHVMAAdwYXJlbnRzcQB+AHV4cQB+AJJzcQB+AI11cQB+AHAAAAAAc3EAfgCNdXEAfgBwAAAAAHNxAH4AjXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AkXQACkF1dG9QbHVnaW5zcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA3NidHNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCrc3EAfgCedAAQUGx1Z2luc0Z1bmN0aW9uc3EAfgCkc3EAfgCedAAFQmFzaWNzcQB+AJ50AAdQbHVnaW5zcQB+AKRzcQB+AJ50AAdQbHVnaW5zcQB+AKRzcQB+AJ50AAZPYmplY3RzcQB+AKJzcQB+AKV1cQB+AKgAAAADc3EAfgCqdAAEamF2YXNxAH4AqnQABGxhbmdxAH4Ar3NxAH4AnnQAA0FueXNxAH4AonNxAH4ApXVxAH4AqAAAAAJzcQB+AKp0AAVzY2FsYXEAfgCvc3EAfgBycQB+AH91cQB+AIAAAAAAc3EAfgCCAHQAKWNzd2J1aWxkLlNjYWxhZG9jTm9WZXJpZmljYXRpb25PZkRpYWdyYW1zdXEAfgCFAAAAAHEAfgCJdXEAfgCLAAAAAHNxAH4AjXEAfgCTc3EAfgCNc3EAfgCVc3EAfgCNdXEAfgBwAAAAAHNxAH4AjXVxAH4AcAAAAABzcQB+AI11cQB+AJwAAAAGc3EAfgCedAAKQXV0b1BsdWdpbnNxAH4AonNxAH4ApXVxAH4AqAAAAAJzcQB+AKp0AANzYnRxAH4Ar3NxAH4AnnQAEFBsdWdpbnNGdW5jdGlvbnNxAH4A2XNxAH4AnnQABUJhc2ljc3EAfgCedAAHUGx1Z2luc3EAfgDZc3EAfgCedAAHUGx1Z2luc3EAfgDZc3EAfgCecQB+ALlzcQB+AKJzcQB+AKV1cQB+AKgAAAADc3EAfgCqcQB+AL5zcQB+AKpxAH4AwHEAfgCvc3EAfgCecQB+AMJzcQB+AKJzcQB+AKV1cQB+AKgAAAACc3EAfgCqcQB+AMdxAH4Ar3NxAH4AcnEAfgB/dXEAfgCAAAAAAHNxAH4AggB0ABNjc3didWlsZC5Vbmlkb2NSb290dXEAfgCFAAAAAHEAfgCJdXEAfgCLAAAAAHNxAH4AjXEAfgCTc3EAfgCNc3EAfgCVc3EAfgCNdXEAfgBwAAAAAHNxAH4AjXVxAH4AcAAAAABzcQB+AI11cQB+AJwAAAAGc3EAfgCedAAKQXV0b1BsdWdpbnNxAH4AonNxAH4ApXVxAH4AqAAAAAJzcQB+AKp0AANzYnRxAH4Ar3NxAH4AnnQAEFBsdWdpbnNGdW5jdGlvbnNxAH4BAnNxAH4AnnQABUJhc2ljc3EAfgCedAAHUGx1Z2luc3EAfgECc3EAfgCedAAHUGx1Z2luc3EAfgECc3EAfgCecQB+ALlzcQB+AKJzcQB+AKV1cQB+AKgAAAADc3EAfgCqcQB+AL5zcQB+AKpxAH4AwHEAfgCvc3EAfgCecQB+AMJzcQB+AKJzcQB+AKV1cQB+AKgAAAACc3EAfgCqcQB+AMdxAH4Ar3NxAH4AcnEAfgB/dXEAfgCAAAAAAHNxAH4AggB0AA9jc3didWlsZC5Vbmlkb2N1cQB+AIUAAAAAcQB+AIl1cQB+AIsAAAAAc3EAfgCNcQB+AJNzcQB+AI1zcQB+AJVzcQB+AI11cQB+AHAAAAAAc3EAfgCNdXEAfgBwAAAAAHNxAH4AjXVxAH4AnAAAAAZzcQB+AJ50AApBdXRvUGx1Z2luc3EAfgCic3EAfgCldXEAfgCoAAAAAnNxAH4AqnQAA3NidHEAfgCvc3EAfgCedAAQUGx1Z2luc0Z1bmN0aW9uc3EAfgErc3EAfgCedAAFQmFzaWNzcQB+AJ50AAdQbHVnaW5zcQB+AStzcQB+AJ50AAdQbHVnaW5zcQB+AStzcQB+AJ5xAH4AuXNxAH4AonNxAH4ApXVxAH4AqAAAAANzcQB+AKpxAH4AvnNxAH4AqnEAfgDAcQB+AK9zcQB+AJ5xAH4AwnNxAH4AonNxAH4ApXVxAH4AqAAAAAJzcQB+AKpxAH4Ax3EAfgCvdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAIY3N3YnVpbGRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVlmfVXNdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAdC9Vc2Vycy9zbWljaGFlbHMvRGVza3RvcC9Qcm9qZWN0cy9BUFMvQVBTIElDUy9TdGltdWx1cyBQcm90b3R5cGUvc3RpbXVsdXMvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUC/6CS2sjcsr2lR/RdF2n/fgXJoE=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDX9KmBAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCUtgsx0AAZub3RpZnlzcQB+AAymSO+MdAAEd2FpdHNxAH4ADBq9xEd0AA0kYXNJbnN0YW5jZU9mc3EAfgAMsEIGO3QAA3VybHNxAH4ADBstQaB0AAZlcXVhbHNzcQB+AAzWG4HFdAAMYXNJbnN0YW5jZU9mc3EAfgAM7dpBbHQADHN5bmNocm9uaXplZHNxAH4ADFpTHI90AA0kaXNJbnN0YW5jZU9mc3EAfgAMn4ywAnQABkdpdEh1YnNxAH4ADFcsRTh0AAlub3RpZnlBbGxzcQB+AAzPGhhddAAMaXNJbnN0YW5jZU9mc3EAfgAMMvpiJnQAAj09c3EAfgAM1yHZp3QABWNsb25lc3EAfgAMhNT53nQACHRvU3RyaW5nc3EAfgAM2EKHLXQAAiE9c3EAfgAMVFQJjnQACGdldENsYXNzc3EAfgAM9d38HXQAAm5lc3EAfgAMr1wO6nQAAmVxc3EAfgAMKDxvHHQAAiMjc3EAfgAM5728V3QACGZpbmFsaXplc3EAfgAMkga0JHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAD2Nzd2J1aWxkLkdpdEh1YnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF5zcQB+AFl1cQB+ADwAAAAAc3EAfgBZdXEAfgA8AAAAAHNxAH4AWXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AdnQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ad3NxAH4AanQAA0FueXNxAH4AbnNxAH4AcXVxAH4AdAAAAAJzcQB+AHZ0AAVzY2FsYXEAfgB9dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAIY3N3YnVpbGRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVlmfVXNdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAdC9Vc2Vycy9zbWljaGFlbHMvRGVza3RvcC9Qcm9qZWN0cy9BUFMvQVBTIElDUy9TdGltdWx1cyBQcm90b3R5cGUvc3RpbXVsdXMvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUW3u2aSQFgbg4xIOxaIANvknJR/0=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDMR+ZNAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAH3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cN3xDDp0AAZub3RpZnlzcQB+AAwAMvGNdAAHc3ZucmVwb3NxAH4ADLpcIXp0AAhTZXR0aW5nc3NxAH4ADAR8sIl0AAR3YWl0c3EAfgAMjbmfqnQADSRhc0luc3RhbmNlT2ZzcQB+AAwURT9jdAAGZXF1YWxzc3EAfgAMEcAutXQAFWZvcm1hdHRpbmdQcmVmZXJlbmNlc3NxAH4ADF0WeMd0AAxhc0luc3RhbmNlT2ZzcQB+AAwznNitdAAMc3luY2hyb25pemVkc3EAfgAMo4yyf3QADSRpc0luc3RhbmNlT2ZzcQB+AAybQKJxdAAHVmVyc2lvbnNxAH4ADPerymt0AAlub3RpZnlBbGxzcQB+AAwpuM4PdAAMaXNJbnN0YW5jZU9mc3EAfgAMA0SkoHQAAj09c3EAfgAMMcmmD3QAB2RhdGFWb2xzcQB+AAzT2OnwdAAFY2xvbmVzcQB+AAxnlmODdAAPZGVmYXVsdFNldHRpbmdzc3EAfgAMVizq3XQADHNpdGVTZXR0aW5nc3NxAH4ADF3pkb50AAh0b1N0cmluZ3NxAH4ADAf7XC10AAIhPXNxAH4ADO91S8l0AAhnZXRDbGFzc3NxAH4ADKypFJ50ABtjb25maWdTZXJ2aWNlRG9ja2VyU2V0dGluZ3NzcQB+AAw7a6ktdAAOZm9ybWF0U2V0dGluZ3NzcQB+AAzdcScidAACbmVzcQB+AAwsokKjdAANYnVpbGRTZXR0aW5nc3NxAH4ADPLQxpN0AA9wYWNrYWdlU2V0dGluZ3NzcQB+AAw5KVIRdAACZXFzcQB+AAxxr0radAAFYW5uZXhzcQB+AAzZd6DBdAACIyNzcQB+AAxExQNndAAIZmluYWxpemVzcQB+AAy1wc+/dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ABN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGxzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AVUwACWluaGVyaXRlZHEAfgBVTAAHcGFyZW50c3EAfgBVeHEAfgBxc3EAfgBsdXEAfgBQAAAAAHNxAH4AbHVxAH4AUAAAAABzcQB+AGx1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHB0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHBzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIl0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIpzcQB+AH10AANBbnlzcQB+AIFzcQB+AIR1cQB+AIcAAAACc3EAfgCJdAAFc2NhbGFxAH4AkHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFZZn1VzXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AHQvVXNlcnMvc21pY2hhZWxzL0Rlc2t0b3AvUHJvamVjdHMvQVBTL0FQUyBJQ1MvU3RpbXVsdXMgUHJvdG90eXBlL3N0aW11bHVzL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFAZsod/IgRf6ghblcPBCFsG6p5+P
+external apis:
+0 items
+source infos:
+5 items
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/CliOptions.scala -> 
+AAAAAAAAAAA=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Dependencies.scala -> 
+AAAAAAAAAAA=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Doc.scala -> 
+AAAAAAAAAAA=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/GitHub.scala -> 
+AAAAAAAAAAA=
+/Users/smichaels/Desktop/Projects/APS/APS ICS/Stimulus Prototype/stimulus/project/Settings.scala -> 
+AAAAAAAAAAA=
+compilations:
+6 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWPUzRXB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9zbWljaGFlbHMvRGVza3RvcC9jc3cvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWWV8cKp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9zbWljaGFlbHMvRGVza3RvcC92c2xpY2UvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWWWC0ht1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9zbWljaGFlbHMvRGVza3RvcC92c2xpY2UvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWWWJFYh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9zbWljaGFlbHMvRGVza3RvcC92c2xpY2UvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWWWOdIB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9Vc2Vycy9zbWljaGFlbHMvRGVza3RvcC92c2xpY2UvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWWZ9Vc11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAdC9Vc2Vycy9zbWljaGFlbHMvRGVza3RvcC9Qcm9qZWN0cy9BUFMvQVBTIElDUy9TdGltdWx1cyBQcm90b3R5cGUvc3RpbXVsdXMvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==
