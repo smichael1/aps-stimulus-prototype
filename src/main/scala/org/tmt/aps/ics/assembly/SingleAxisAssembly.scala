@@ -4,7 +4,7 @@ import java.io.File
 
 import akka.actor.{ActorRef, Props}
 import akka.util.Timeout
-import org.tmt.aps.ics.assembly.AssemblyContext.{TromboneCalculationConfig, TromboneControlConfig}
+import org.tmt.aps.ics.assembly.AssemblyContext.{SingleAxisCalculationConfig, SingleAxisControlConfig}
 import csw.services.alarms.AlarmService
 import csw.services.ccs.AssemblyMessages.{DiagnosticMode, OperationsMode}
 import csw.services.ccs.SequentialExecutor.{ExecuteOne, StartTheSequence}
@@ -68,10 +68,10 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
 
       /*
       // This actor handles all telemetry and system event publishing
-      val eventPublisher = context.actorOf(TrombonePublisher.props(assemblyContext, None))
+      val eventPublisher = context.actorOf(SingleAxisPublisher.props(assemblyContext, None))
 
       // Setup command handler for assembly - note that CommandHandler connects directly to galilHCD here, not state receiver
-      commandHandler = context.actorOf(TromboneCommandHandler.props(assemblyContext, galilHCD, Some(eventPublisher)))
+      commandHandler = context.actorOf(SingleAxisCommandHandler.props(assemblyContext, galilHCD, Some(eventPublisher)))
 
       // This sets up the diagnostic data publisher - setting Var here
       diagPublsher = context.actorOf(DiagPublisher.props(assemblyContext, galilHCD, Some(eventPublisher)))
@@ -108,7 +108,7 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
       // Set the operational cmd state to "ready" according to spec-this is propagated to other actors
       //state(cmd = cmdReady)
       context.become(runningReceive)
-    case x => log.error(s"Unexpected message in TromboneAssembly:initializingReceive: $x")
+    case x => log.error(s"Unexpected message in SingleAxisAssembly:initializingReceive: $x")
   }
 
   /**
@@ -205,12 +205,12 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
       supervisor ! ShutdownComplete
     case LifecycleFailureInfo(state: LifecycleState, reason: String) =>
       // This is an error conditin so log it
-      log.error(s"TromboneAssembly received failed lifecycle state: $state for reason: $reason")
+      log.error(s"SingleAxisAssembly received failed lifecycle state: $state for reason: $reason")
   }
 
   // Catchall unhandled message receive
   def unhandledPF: Receive = {
-    case x => log.error(s"Unexpected message in TromboneAssembly:unhandledPF: $x")
+    case x => log.error(s"Unexpected message in SingleAxisAssembly:unhandledPF: $x")
   }
 
   /**
@@ -247,15 +247,15 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
 
   // Gets the assembly configurations from the config service, or a resource file, if not found and
   // returns the two parsed objects.
-  private def getAssemblyConfigs: Future[(TromboneCalculationConfig, TromboneControlConfig)] = {
+  private def getAssemblyConfigs: Future[(SingleAxisCalculationConfig, SingleAxisControlConfig)] = {
     // This is required by the ConfigServiceClient
     implicit val system = context.system
     import system.dispatcher
 
     implicit val timeout = Timeout(3.seconds)
-    val f = ConfigServiceClient.getConfigFromConfigService(tromboneConfigFile, resource = Some(resource))
+    val f = ConfigServiceClient.getConfigFromConfigService(singleAxisConfigFile, resource = Some(resource))
     // parse the future
-    f.map(configOpt => (TromboneCalculationConfig(configOpt.get), TromboneControlConfig(configOpt.get)))
+    f.map(configOpt => (SingleAxisCalculationConfig(configOpt.get), SingleAxisControlConfig(configOpt.get)))
   }
 }
 
@@ -264,15 +264,15 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
  */
 object SingleAxisAssembly {
 
-  // Get the trombone config file from the config service, or use the given resource file if that doesn't work
-  val tromboneConfigFile = new File("trombone/tromboneAssembly.conf")
-  val resource = new File("tromboneAssembly.conf")
+  // Get the single axis assembly config file from the config service, or use the given resource file if that doesn't work
+  val singleAxisConfigFile = new File("ics/singleAxisAssembly.conf")
+  val resource = new File("singleAxisAssembly.conf")
 
   def props(assemblyInfo: AssemblyInfo, supervisor: ActorRef) = Props(classOf[SingleAxisAssembly], assemblyInfo, supervisor)
 
   // --------- Keys/Messages used by Multiple Components
   /**
-   * The message is used within the Assembly to update actors when the Trombone HCD goes up and down and up again
+   * The message is used within the Assembly to update actors when the Galil HCD goes up and down and up again
    *
    * @param galilHCD the ActorRef of the galilHCD or None
    */

@@ -18,7 +18,7 @@ object TestEnv {
   def createTromboneHcdConfig()(implicit system: ActorSystem): Unit = {
     val config = ConfigFactory.parseResources(GalilHCD.resource.getPath)
     implicit val timeout = Timeout(5.seconds)
-    Await.ready(ConfigServiceClient.saveConfigToConfigService(GalilHCD.tromboneConfigFile, config), timeout.duration)
+    Await.ready(ConfigServiceClient.saveConfigToConfigService(GalilHCD.galilConfigFile, config), timeout.duration)
   }
 
   // For the tests, store the assembly's configuration in the config service (Normally, it would already be there)
@@ -26,7 +26,7 @@ object TestEnv {
     createTromboneHcdConfig()
     implicit val timeout = Timeout(5.seconds)
     val config = ConfigFactory.parseResources(SingleAxisAssembly.resource.getPath)
-    Await.ready(ConfigServiceClient.saveConfigToConfigService(SingleAxisAssembly.tromboneConfigFile, config), 5.seconds)
+    Await.ready(ConfigServiceClient.saveConfigToConfigService(SingleAxisAssembly.singleAxisConfigFile, config), 5.seconds)
 
   }
 }
