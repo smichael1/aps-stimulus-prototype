@@ -24,7 +24,7 @@ import scala.concurrent.duration._
 object AssemblyBasicTests {
   LocationService.initInterface()
 
-  val system = ActorSystem("TromboneAssemblyBasicTests")
+  val system = ActorSystem("SingleAxisAssemblyBasicTests")
 }
 
 /**
@@ -44,7 +44,7 @@ class AssemblyBasicTests extends TestKit(AssemblyBasicTests.system) with Implici
     val cmd = ContainerCmd("vslice", Array("--standalone"), Map("" -> "galilHCD.conf"))
     hcdActors = cmd.actors
 
-    info("hcdActors = " + hcdActors);
+    info("hcdActors = " + hcdActors); // sm: this is correct
   }
 
   override def afterAll: Unit = {
@@ -52,7 +52,7 @@ class AssemblyBasicTests extends TestKit(AssemblyBasicTests.system) with Implici
     TestKit.shutdownActorSystem(AssemblyBasicTests.system)
   }
 
-  val assemblyContext = AssemblyTestData.TestAssemblyContext
+  val assemblyContext = AssemblyTestData.TestAssemblyContext // this is where the config for the test is obtained
 
   import assemblyContext._
 

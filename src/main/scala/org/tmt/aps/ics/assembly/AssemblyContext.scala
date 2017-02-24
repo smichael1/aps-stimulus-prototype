@@ -1,7 +1,7 @@
 package org.tmt.aps.ics.assembly
 
 import com.typesafe.config.Config
-import org.tmt.aps.ics.assembly.AssemblyContext.{TromboneCalculationConfig, TromboneControlConfig}
+import org.tmt.aps.ics.assembly.AssemblyContext.{SingleAxisCalculationConfig, SingleAxisControlConfig}
 import csw.services.loc.ComponentId
 import csw.services.pkg.Component.AssemblyInfo
 import csw.util.config.Configurations.{ConfigKey, SetupConfig}
@@ -11,7 +11,7 @@ import csw.util.config.{BooleanKey, DoubleItem, DoubleKey, StringKey}
 /**
  * TMT Source Code: 10/4/16.
  */
-case class AssemblyContext(info: AssemblyInfo, calculationConfig: TromboneCalculationConfig, controlConfig: TromboneControlConfig) {
+case class AssemblyContext(info: AssemblyInfo, calculationConfig: SingleAxisCalculationConfig, controlConfig: SingleAxisControlConfig) {
   // Assembly Info
   // These first three are set from the config file
   val componentName: String = info.componentName
@@ -25,22 +25,6 @@ case class AssemblyContext(info: AssemblyInfo, calculationConfig: TromboneCalcul
 
   // Public command configurations
   // Init submit command
-  val initPrefix = s"$componentPrefix.init"
-  val initCK: ConfigKey = initPrefix
-
-  // Dataum submit command
-  val datumPrefix = s"$componentPrefix.datum"
-  val datumCK: ConfigKey = datumPrefix
-
-  // Stop submit command
-  val stopPrefix = s"$componentPrefix.stop"
-  val stopCK: ConfigKey = stopPrefix
-
-  // Move submit command
-  val movePrefix = s"$componentPrefix.move"
-  val moveCK: ConfigKey = movePrefix
-
-  def moveSC(position: Double): SetupConfig = SetupConfig(moveCK).add(stagePositionKey -> position withUnits stagePositionUnits)
 
   // Position submit command
   val positionPrefix = s"$componentPrefix.position"
@@ -48,74 +32,20 @@ case class AssemblyContext(info: AssemblyInfo, calculationConfig: TromboneCalcul
 
   def positionSC(rangeDistance: Double): SetupConfig = SetupConfig(positionCK).add(naRangeDistanceKey -> rangeDistance withUnits naRangeDistanceUnits)
 
-  // setElevation submit command
-  val setElevationPrefix = s"$componentPrefix.setElevation"
-  val setElevationCK: ConfigKey = setElevationPrefix
-  def setElevationSC(elevation: Double): SetupConfig = SetupConfig(setElevationCK).add(naElevation(elevation))
-
-  // setAngle submit command
-  val setAnglePrefx = s"$componentPrefix.setAngle"
-  val setAngleCK: ConfigKey = setAnglePrefx
-  def setAngleSC(zenithAngle: Double): SetupConfig = SetupConfig(setAngleCK).add(za(zenithAngle))
-
-  // Follow submit command
-  val followPrefix = s"$componentPrefix.follow"
-  val followCK: ConfigKey = followPrefix
-  val nssInUseKey = BooleanKey("nssInUse")
-
-  def setNssInUse(value: Boolean) = nssInUseKey -> value
-
-  def followSC(nssInUse: Boolean): SetupConfig = SetupConfig(followCK).add(nssInUseKey -> nssInUse)
-
-  // A list of all commands
-  val allCommandKeys: List[ConfigKey] = List(initCK, datumCK, stopCK, moveCK, positionCK, setElevationCK, setAngleCK, followCK)
+  // A list of all commands, just do position for now
+  val allCommandKeys: List[ConfigKey] = List(positionCK)
 
   // Shared key values --
-  // Used by setElevation, setAngle
-  val configurationNameKey = StringKey("initConfigurationName")
-  val configurationVersionKey = StringKey("initConfigurationVersion")
-
-  val focusErrorKey = DoubleKey("focus")
-  val focusErrorUnits = micrometers
-
-  def fe(error: Double): DoubleItem = focusErrorKey -> error withUnits focusErrorUnits
-
-  val zenithAngleKey = DoubleKey("zenithAngle")
-  val zenithAngleUnits = degrees
-
-  def za(angle: Double): DoubleItem = zenithAngleKey -> angle withUnits zenithAngleUnits
-
   val naRangeDistanceKey = DoubleKey("rangeDistance")
   val naRangeDistanceUnits = kilometers
-
   def rd(rangedistance: Double): DoubleItem = naRangeDistanceKey -> rangedistance withUnits naRangeDistanceUnits
-
-  val naElevationKey = DoubleKey("elevation")
-  val naElevationUnits = kilometers
-  def naElevation(elevation: Double): DoubleItem = naElevationKey -> elevation withUnits naElevationUnits
-
-  val initialElevationKey = DoubleKey("initialElevation")
-  val initialElevationUnits = kilometers
-  def iElevation(elevation: Double): DoubleItem = initialElevationKey -> elevation withUnits initialElevationUnits
 
   val stagePositionKey = DoubleKey("stagePosition")
   val stagePositionUnits = millimeters
-
   def spos(pos: Double): DoubleItem = stagePositionKey -> pos withUnits stagePositionUnits
 
-  // ---------- Keys used by TromboneEventSubscriber and Others
-  // This is the zenith angle from TCS
-  val zenithAnglePrefix = "TCS.tcsPk.zenithAngle"
-  val zaConfigKey: ConfigKey = zenithAnglePrefix
-
-  // This is the focus error from RTC
-  val focusErrorPrefix = "RTC.focusError"
-  val feConfigKey: ConfigKey = focusErrorPrefix
-
-  // ----------- Keys, etc. used by trombonePublisher, calculator, comamnds
-  val aoSystemEventPrefix = s"$componentPrefix.sodiumLayer"
-  val engStatusEventPrefix = s"$componentPrefix.engr"
-  val tromboneStateStatusEventPrefix = s"$componentPrefix.state"
+  // ----------- Keys, etc. used by Publisher, calculator, comamnds
+  val singleAxisStateStatusEventPrefix = s"$componentPrefix.state"
   val axisStateEventPrefix = s"$componentPrefix.axis1State"
   val axisStatsEventPrefix = s"$componentPrefix.axis1Stats"
 }
@@ -130,23 +60,23 @@ object AssemblyContext {
    * @param minStageEncoder minimum
    * @param minEncoderLimit minimum
    */
-  case class TromboneControlConfig(
+  case class SingleAxisControlConfig(
     positionScale: Double,
     stageZero:     Double, minStageEncoder: Int,
     minEncoderLimit: Int, maxEncoderLimit: Int
   )
 
-  object TromboneControlConfig {
-    def apply(config: Config): TromboneControlConfig = {
+  object SingleAxisControlConfig {
+    def apply(config: Config): SingleAxisControlConfig = {
       // Main prefix for keys used below
-      val prefix = "csw.examples.trombone.assembly"
+      val prefix = "org.tmt.aps.ics.singleAxis.assembly"
 
       val positionScale = config.getDouble(s"$prefix.control-config.positionScale")
       val stageZero = config.getDouble(s"$prefix.control-config.stageZero")
       val minStageEncoder = config.getInt(s"$prefix.control-config.minStageEncoder")
       val minEncoderLimit = config.getInt(s"$prefix.control-config.minEncoderLimit")
       val maxEncoderLimit = config.getInt(s"$prefix.control-config.maxEncoderLimit")
-      TromboneControlConfig(positionScale, stageZero, minStageEncoder, minEncoderLimit, maxEncoderLimit)
+      SingleAxisControlConfig(positionScale, stageZero, minStageEncoder, minEncoderLimit, maxEncoderLimit)
     }
   }
 
@@ -159,20 +89,16 @@ object AssemblyContext {
    * @param lowerFocusLimit         check for minimum focus error
    * @param zenithFactor            an algorithm value for scaling zenith angle term
    */
-  case class TromboneCalculationConfig(defaultInitialElevation: Double, focusErrorGain: Double,
-                                       upperFocusLimit: Double, lowerFocusLimit: Double, zenithFactor: Double)
+  case class SingleAxisCalculationConfig(defaultInitialElevation: Double)
 
-  object TromboneCalculationConfig {
-    def apply(config: Config): TromboneCalculationConfig = {
+  object SingleAxisCalculationConfig {
+    def apply(config: Config): SingleAxisCalculationConfig = {
       // Main prefix for keys used below
-      val prefix = "csw.examples.trombone.assembly"
+      val prefix = "org.tmt.aps.ics.singleAxis.assembly"
 
       val defaultInitialElevation = config.getDouble(s"$prefix.calculation-config.defaultInitialElevation")
-      val focusGainError = config.getDouble(s"$prefix.calculation-config.focusErrorGain")
-      val upperFocusLimit = config.getDouble(s"$prefix.calculation-config.upperFocusLimit")
-      val lowerFocusLimit = config.getDouble(s"$prefix.calculation-config.lowerFocusLimit")
-      val zenithFactor = config.getDouble(s"$prefix.calculation-config.zenithFactor")
-      TromboneCalculationConfig(defaultInitialElevation, focusGainError, upperFocusLimit, lowerFocusLimit, zenithFactor)
+
+      SingleAxisCalculationConfig(defaultInitialElevation)
     }
   }
 

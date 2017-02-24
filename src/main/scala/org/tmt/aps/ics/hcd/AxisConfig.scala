@@ -8,7 +8,7 @@ import com.typesafe.config.Config
 object AxisConfig {
   def apply(config: Config): AxisConfig = {
     // Main prefix for keys used below
-    val prefix = "csw.examples.trombone.hcd"
+    val prefix = "org.tmt.aps.ics.galilHCD"
 
     val axisName: String = config.getString(s"$prefix.axis-config.axisName")
     val lowLimit: Int = config.getInt(s"$prefix.axis-config.lowLimit")
