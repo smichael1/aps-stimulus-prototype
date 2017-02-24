@@ -236,9 +236,9 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
   private def validateSequenceConfigArg(sca: SetupConfigArg): ValidationList = {
     // Are all of the configs really for us and correctly formatted, etc?
     /*
-    ConfigValidation.validateTromboneSetupConfigArg(sca)
+    ConfigValidation.validateSingleAxisSetupConfigArg(sca)
      */
-    List[Validation]()
+    List[Validation]() // sm - I put this in so it would compile
   }
 
   // Convenience method to create a new SequentialExecutor

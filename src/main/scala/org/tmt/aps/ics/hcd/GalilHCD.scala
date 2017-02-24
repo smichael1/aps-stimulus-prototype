@@ -60,7 +60,7 @@ class GalilHCD(override val info: HcdInfo, supervisor: ActorRef) extends Hcd wit
     // The following line could fail, if the config service is not running or the file is not found
     axisConfig = Await.result(getAxisConfig, timeout.duration)
 
-    // Create an axis for simulating trombone motion
+    // Create an axis for simulating axis motion
     stageAxis = setupAxis(axisConfig)
 
     // Initialize values -- This causes an update to the listener
@@ -140,21 +140,21 @@ class GalilHCD(override val info: HcdInfo, supervisor: ActorRef) extends Hcd wit
       // Update actor state
       this.current = au
       //      context.become(runningReceive)
-      val tromboneAxisState = defaultAxisState.madd(
+      val stageAxisState = defaultAxisState.madd(
         positionKey -> currentPosition withUnits encoder,
         stateKey -> axisState.toString,
         inLowLimitKey -> inLowLimit,
         inHighLimitKey -> inHighLimit,
         inHomeKey -> inHomed
       )
-      notifySubscribers(tromboneAxisState)
+      notifySubscribers(stageAxisState)
 
     case as: AxisStatistics =>
       log.debug(s"AxisStatus: $as")
       // Update actor statistics
       this.stats = as
       //      context.become(runningReceive)
-      val tromboneStats = defaultStatsState.madd(
+      val stageStats = defaultStatsState.madd(
         datumCountKey -> as.initCount,
         moveCountKey -> as.moveCount,
         limitCountKey -> as.limitCount,
@@ -163,7 +163,7 @@ class GalilHCD(override val info: HcdInfo, supervisor: ActorRef) extends Hcd wit
         failureCountKey -> as.failureCount,
         cancelCountKey -> as.cancelCount
       )
-      notifySubscribers(tromboneStats)
+      notifySubscribers(stageStats)
 
     case x => log.error(s"Unexpected message in GalilHCD (running state): $x")
   }

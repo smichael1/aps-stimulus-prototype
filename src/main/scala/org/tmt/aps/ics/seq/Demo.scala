@@ -114,7 +114,7 @@ object Demo extends LazyLogging {
 
   /**
    * Send one position command to the SingleAxis Assembly
-   * @param tla the BlockingAssemblyClient returned by getTrombone
+   * @param tla the BlockingAssemblyClient returned by getSingleAxis
    * @param pos some position as a double.  Should be around 90-200 or you will drive it to a limit
    * @return CommandResult and the conclusion of execution
    */
@@ -123,14 +123,14 @@ object Demo extends LazyLogging {
   }
 
   /**
-   * Subscribe to all StatusEvents published by the TromboneAssembly and print them to screen
+   * Subscribe to all StatusEvents published by the SingleAxisAssembly and print them to screen
    * @param ts a Telemetry Service reference
    * @return an EventService referenc
    */
   def getStatusEvents(ts: TelemetryService): EventMonitor = ts.subscribe(evPrinter, false, s"$componentPrefix.*")
 
   /**
-   * Subscribe to all SystemEvents published by TromboneAssembly and print them to the screen
+   * Subscribe to all SystemEvents published by SingleAxisAssembly and print them to the screen
    * @param es an EventService reference
    * @return EventMonitor
    */
