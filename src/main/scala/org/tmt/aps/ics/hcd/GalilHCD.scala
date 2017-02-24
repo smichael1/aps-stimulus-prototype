@@ -47,10 +47,10 @@ class GalilHCD(override val info: HcdInfo, supervisor: ActorRef) extends Hcd wit
   var current: AxisUpdate = _
   var stats: AxisStatistics = _
 
-  // Create an axis for simulating trombone motion
-  var tromboneAxis: ActorRef = _
+  // Create an axis for simulating axis motion
+  var stageAxis: ActorRef = _
 
-  // Get the axis config file from the config service, then use it to start the tromboneAxis actor
+  // Get the axis config file from the config service, then use it to start the stageAxis actor
   // and get the current values. Once that is done, we can tell the supervisor actor that we are ready
   // and then wait for the Running message from the supervisor before going to the running state.
   // Initialize axis from ConfigService
@@ -61,14 +61,14 @@ class GalilHCD(override val info: HcdInfo, supervisor: ActorRef) extends Hcd wit
     axisConfig = Await.result(getAxisConfig, timeout.duration)
 
     // Create an axis for simulating trombone motion
-    tromboneAxis = setupAxis(axisConfig)
+    stageAxis = setupAxis(axisConfig)
 
     // Initialize values -- This causes an update to the listener
     // The current axis position from the hardware axis, initialize to default value
 
-    current = Await.result((tromboneAxis ? InitialState).mapTo[AxisUpdate], timeout.duration)
+    current = Await.result((stageAxis ? InitialState).mapTo[AxisUpdate], timeout.duration)
 
-    stats = Await.result((tromboneAxis ? GetStatistics).mapTo[AxisStatistics], timeout.duration)
+    stats = Await.result((stageAxis ? GetStatistics).mapTo[AxisStatistics], timeout.duration)
 
     // Required setup for Lifecycle in order to get messages
     supervisor ! Initialized
@@ -113,10 +113,10 @@ class GalilHCD(override val info: HcdInfo, supervisor: ActorRef) extends Hcd wit
       log.info(s"Received failed state: $state for reason: $reason")
 
     case GetAxisStats =>
-      tromboneAxis ! GetStatistics
+      stageAxis ! GetStatistics
 
     case GetAxisUpdate =>
-      tromboneAxis ! PublishAxisUpdate
+      stageAxis ! PublishAxisUpdate
 
     case GetAxisUpdateNow =>
       sender() ! current
@@ -170,18 +170,18 @@ class GalilHCD(override val info: HcdInfo, supervisor: ActorRef) extends Hcd wit
 
   protected def process(sc: SetupConfig): Unit = {
     import GalilHCD._
-    log.debug(s"Trombone process received sc: $sc")
+    log.debug(s"Stage Axis process received sc: $sc")
 
     sc.configKey match {
       case `axisMoveCK` =>
-        tromboneAxis ! Move(sc(positionKey).head, diagFlag = true)
+        stageAxis ! Move(sc(positionKey).head, diagFlag = true)
       case `axisDatumCK` =>
         log.info("Received Datum")
-        tromboneAxis ! Datum
+        stageAxis ! Datum
       case `axisHomeCK` =>
-        tromboneAxis ! Home
+        stageAxis ! Home
       case `axisCancelCK` =>
-        tromboneAxis ! CancelMove
+        stageAxis ! CancelMove
     }
   }
 
@@ -192,7 +192,7 @@ class GalilHCD(override val info: HcdInfo, supervisor: ActorRef) extends Hcd wit
     // This is required by the ConfigServiceClient
     implicit val system = context.system
 
-    val f = ConfigServiceClient.getConfigFromConfigService(tromboneConfigFile, resource = Some(resource))
+    val f = ConfigServiceClient.getConfigFromConfigService(galilConfigFile, resource = Some(resource))
 
     f.map(_.map(AxisConfig(_)).get)
   }
@@ -201,19 +201,19 @@ class GalilHCD(override val info: HcdInfo, supervisor: ActorRef) extends Hcd wit
 object GalilHCD {
   def props(hcdInfo: HcdInfo, supervisor: ActorRef) = Props(classOf[GalilHCD], hcdInfo, supervisor)
 
-  // Get the trombone config file from the config service, or use the given resource file if that doesn't work
-  val tromboneConfigFile = new File("ics/galilHCD.conf")
+  // Get the galil config file from the config service, or use the given resource file if that doesn't work
+  val galilConfigFile = new File("ics/galilHCD.conf")
   val resource = new File("galilHCD.conf")
 
   // HCD Info
   val componentName = "icsGalilHCD"
   val componentType = ComponentType.HCD
   val componentClassName = "org.tmt.aps.ics.hcd.GalilHCD"
-  val trombonePrefix = "nfiraos.ncc.galilHCD"
+  val galilPrefix = "org.tmt.aps.ics.hcd.galilHcd"
 
-  val tromboneAxisName = "tromboneAxis"
+  val galilAxisName = "stageAxis"
 
-  val axisStatePrefix = s"$trombonePrefix.axis1State"
+  val axisStatePrefix = s"$galilPrefix.axis1State"
   val axisStateCK: ConfigKey = axisStatePrefix
   val axisNameKey = StringKey("axisName")
   val AXIS_IDLE = Choice(SingleAxisSimulator.AXIS_IDLE.toString)
@@ -227,7 +227,7 @@ object GalilHCD {
   val inHomeKey = BooleanKey("homed")
 
   private val defaultAxisState = CurrentState(axisStateCK).madd(
-    axisNameKey -> tromboneAxisName,
+    axisNameKey -> galilAxisName,
     stateKey -> AXIS_IDLE,
     positionKey -> 0 withUnits encoder,
     inLowLimitKey -> false,
@@ -235,7 +235,7 @@ object GalilHCD {
     inHomeKey -> false
   )
 
-  val axisStatsPrefix = s"$trombonePrefix.axisStats"
+  val axisStatsPrefix = s"$galilPrefix.axisStats"
   val axisStatsCK: ConfigKey = axisStatsPrefix
   val datumCountKey = IntKey("initCount")
   val moveCountKey = IntKey("moveCount")
@@ -245,7 +245,7 @@ object GalilHCD {
   val failureCountKey = IntKey("failureCount")
   val cancelCountKey = IntKey("cancelCount")
   private val defaultStatsState = CurrentState(axisStatsCK).madd(
-    axisNameKey -> tromboneAxisName,
+    axisNameKey -> galilAxisName,
     datumCountKey -> 0,
     moveCountKey -> 0,
     homeCountKey -> 0,
@@ -255,7 +255,7 @@ object GalilHCD {
     cancelCountKey -> 0
   )
 
-  val axisConfigPrefix = s"$trombonePrefix.axisConfig"
+  val axisConfigPrefix = s"$galilPrefix.axisConfig"
   val axisConfigCK: ConfigKey = axisConfigPrefix
   // axisNameKey
   val lowLimitKey = IntKey("lowLimit")
@@ -267,41 +267,41 @@ object GalilHCD {
   val stepDelayMSKey = IntKey("stepDelayMS")
   // No full default current state because it is determined at runtime
   private val defaultConfigState = CurrentState(axisConfigCK).madd(
-    axisNameKey -> tromboneAxisName
+    axisNameKey -> galilAxisName
   )
 
-  val axisMovePrefix = s"$trombonePrefix.move"
+  val axisMovePrefix = s"$galilPrefix.move"
   val axisMoveCK: ConfigKey = axisMovePrefix
 
   def positionSC(value: Int): SetupConfig = SetupConfig(axisMoveCK).add(positionKey -> value withUnits encoder)
 
-  val axisDatumPrefix = s"$trombonePrefix.datum"
+  val axisDatumPrefix = s"$galilPrefix.datum"
   val axisDatumCK: ConfigKey = axisDatumPrefix
   val datumSC = SetupConfig(axisDatumCK)
 
-  val axisHomePrefix = s"$trombonePrefix.home"
+  val axisHomePrefix = s"$galilPrefix.home"
   val axisHomeCK: ConfigKey = axisHomePrefix
   val homeSC = SetupConfig(axisHomeCK)
 
-  val axisCancelPrefix = s"$trombonePrefix.cancel"
+  val axisCancelPrefix = s"$galilPrefix.cancel"
   val axisCancelCK: ConfigKey = axisCancelPrefix
   val cancelSC = SetupConfig(axisCancelCK)
 
   // Testing messages for GalilHCD
-  trait TromboneEngineering
+  trait GalilEngineering
 
-  case object GetAxisStats extends TromboneEngineering
+  case object GetAxisStats extends GalilEngineering
 
   /**
    * Returns an AxisUpdate through subscribers
    */
-  case object GetAxisUpdate extends TromboneEngineering
+  case object GetAxisUpdate extends GalilEngineering
 
   /**
    * Directly returns an AxisUpdate to sender
    */
-  case object GetAxisUpdateNow extends TromboneEngineering
+  case object GetAxisUpdateNow extends GalilEngineering
 
-  case object GetAxisConfig extends TromboneEngineering
+  case object GetAxisConfig extends GalilEngineering
 
 }
