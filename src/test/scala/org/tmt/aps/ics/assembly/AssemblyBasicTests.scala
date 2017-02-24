@@ -1,10 +1,10 @@
-package csw.examples.vslice.assembly
+package org.tmt.aps.ics.assembly
 
 import akka.actor.{ActorRef, ActorSystem, PoisonPill, Props}
 import akka.testkit.{ImplicitSender, TestKit, TestProbe}
 import akka.util.Timeout
 import com.typesafe.scalalogging.slf4j.LazyLogging
-import csw.examples.vslice.TestEnv
+import org.tmt.aps.ics.TestEnv
 import csw.services.apps.containerCmd.ContainerCmd
 import csw.services.ccs.AssemblyController.Submit
 import csw.services.ccs.CommandStatus._
@@ -21,7 +21,7 @@ import org.scalatest.{BeforeAndAfterAll, FunSpecLike, _}
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
-object TromboneAssemblyBasicTests {
+object AssemblyBasicTests {
   LocationService.initInterface()
 
   val system = ActorSystem("TromboneAssemblyBasicTests")
@@ -31,7 +31,7 @@ object TromboneAssemblyBasicTests {
  * This test assumes an HCD is running.
  * It creates an Assembly for direct interaction, not using the Supervisor
  */
-class TromboneAssemblyBasicTests extends TestKit(TromboneAssemblyBasicTests.system) with ImplicitSender
+class AssemblyBasicTests extends TestKit(AssemblyBasicTests.system) with ImplicitSender
     with FunSpecLike with ShouldMatchers with BeforeAndAfterAll with LazyLogging {
 
   // List of top level actors that were created for the HCD (for clean up)
@@ -41,7 +41,7 @@ class TromboneAssemblyBasicTests extends TestKit(TromboneAssemblyBasicTests.syst
     TestEnv.createTromboneAssemblyConfig()
 
     // Starts the HCD used in the test
-    val cmd = ContainerCmd("vslice", Array("--standalone"), Map("" -> "tromboneHCD.conf"))
+    val cmd = ContainerCmd("vslice", Array("--standalone"), Map("" -> "galilHCD.conf"))
     hcdActors = cmd.actors
 
     info("hcdActors = " + hcdActors);
@@ -49,7 +49,7 @@ class TromboneAssemblyBasicTests extends TestKit(TromboneAssemblyBasicTests.syst
 
   override def afterAll: Unit = {
     hcdActors.foreach(_ ! PoisonPill)
-    TestKit.shutdownActorSystem(TromboneAssemblyBasicTests.system)
+    TestKit.shutdownActorSystem(AssemblyBasicTests.system)
   }
 
   val assemblyContext = AssemblyTestData.TestAssemblyContext
@@ -62,8 +62,8 @@ class TromboneAssemblyBasicTests extends TestKit(TromboneAssemblyBasicTests.syst
 
   def getTromboneProps(assemblyInfo: AssemblyInfo, supervisorIn: Option[ActorRef]): Props = {
     supervisorIn match {
-      case None           => TromboneAssembly.props(assemblyInfo, TestProbe().ref)
-      case Some(actorRef) => TromboneAssembly.props(assemblyInfo, actorRef)
+      case None           => SingleAxisAssembly.props(assemblyInfo, TestProbe().ref)
+      case Some(actorRef) => SingleAxisAssembly.props(assemblyInfo, actorRef)
     }
   }
 
@@ -84,7 +84,7 @@ class TromboneAssemblyBasicTests extends TestKit(TromboneAssemblyBasicTests.syst
       fakeSupervisor.expectMsg(Initialized)
 
       info("got to here 3")
-      //fakeSupervisor.expectMsg(10.seconds, Started)
+      fakeSupervisor.expectMsg(10.seconds, Started)
 
       //fakeSupervisor.send(tla, Running)
 
