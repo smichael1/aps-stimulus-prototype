@@ -1,0 +1,9 @@
+#Successful Tests
+#Fri Feb 24 15:19:28 PST 2017
+csw.examples.vslice.assembly.TromboneAssemblyBasicTests=1485301399296
+csw.examples.vslice.hcd.SingleAxisSimulatorTests=1485298119632
+csw.examples.vslice.assembly.TromboneAssemblyCompTests=1485298171437
+csw.examples.vslice.assembly.TromboneStateActorTests=1485297864503
+csw.examples.vslice.assembly.AlgorithmTests=1485297864524
+csw.examples.vslice.assembly.ValidationTests=1485297824102
+org.tmt.aps.ics.assembly.AssemblyBasicTests=1487978361503

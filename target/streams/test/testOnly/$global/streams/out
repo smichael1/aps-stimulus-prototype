@@ -1,0 +1,23 @@
+[0m[[0mdebug[0m] [0mjavaOptions: List()[0m
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for org.specs2.runner.Specs2Framework produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.tmt.aps.ics.assembly.AssemblyBasicTests, sbt.ForkMain$SubclassFingerscan@4899d1e7, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mAssemblyBasicTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mlow-level instrumented trombone assembly tests[0m[0m
+[0m[[0minfo[0m] [0m[32m- should lifecycle properly with a fake supervisor[0m[0m
+[0m[[0minfo[0m] [0m[32m  + got to here 2 [0m[0m
+[0m[[0minfo[0m] [0m[32m  + got to here 3 [0m[0m
+[0m[[0minfo[0m] [0m[32m+ hcdActors = List(Actor[akka://icsGalilHCD-system/user/icsGalilHCD-supervisor#1951553791]) [0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 16 seconds, 426 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0minfo[0m] [0mPassed: Total 1, Failed 0, Errors 0, Passed 1[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	org.tmt.aps.ics.assembly.AssemblyBasicTests[0m
