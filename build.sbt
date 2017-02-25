@@ -17,7 +17,7 @@ def runtime(deps: ModuleID*): Seq[ModuleID] = deps map (_ % "runtime")
 def container(deps: ModuleID*): Seq[ModuleID] = deps map (_ % "container")
 
 
-val vslice = (project in file("."))
+val singleAxis = (project in file("."))
   .enablePlugins(JavaAppPackaging)
   .settings(UnidocRoot.settings(Nil, Nil): _*)
   .settings(defaultSettings: _*)
@@ -26,7 +26,7 @@ val vslice = (project in file("."))
     compile(akkaActor, akkaRemote, akkaHttp, pkg, cs, ccs, loc, ts, events, util, alarms, containerCmd, seqSupport) ++
       test(scalaTest, specs2, akkaTestKit)
    )
-  .settings(packageSettings("VerticalSlice", "Vertical Slice Example", "More complicated example showing CSW features"): _*)
+  .settings(packageSettings("SingleAxis", "Single Axis Example", "ICS Prototype First Attempt"): _*)
   
 
 
