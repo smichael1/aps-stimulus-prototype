@@ -1,4 +1,0 @@
-[0m[[0minfo[0m] [0m:: delivering :: org.tmt#vslice_2.11;0.3-SNAPSHOT :: 0.3-SNAPSHOT :: integration :: Mon Dec 12 14:42:33 PST 2016[0m
-[0m[[0mdebug[0m] [0m	options = status=integration pubdate=Mon Dec 12 14:42:33 PST 2016 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
-[0m[[0minfo[0m] [0m	delivering ivy file to /Users/smichaels/Desktop/csw/examples/vslice/target/scala-2.11/ivy-0.3-SNAPSHOT.xml[0m
-[0m[[0mdebug[0m] [0m	deliver done (3ms)[0m
