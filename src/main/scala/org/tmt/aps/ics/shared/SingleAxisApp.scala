@@ -14,6 +14,6 @@ object SingleAxisApp extends App {
     "" -> "singleAxisContainer.conf" // default value
   )
 
-  // Parse command line args for the application (app name is vslice, like the sbt project)
-  ContainerCmd("vslice", args, m)
+  // Parse command line args for the application (app name is singleaxis, like the sbt project)
+  ContainerCmd("singleaxis", args, m)
 }
