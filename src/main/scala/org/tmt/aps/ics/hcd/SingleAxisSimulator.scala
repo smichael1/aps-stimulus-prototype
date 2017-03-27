@@ -199,10 +199,15 @@ object SingleAxisSimulator {
 
   trait AxisRequest
   case object Home extends AxisRequest
+  // sm- this may not be necessary
   case object Datum extends AxisRequest
+
   case class Move(position: Int, diagFlag: Boolean = false) extends AxisRequest
   case object CancelMove extends AxisRequest
+
+  // sm - this may not be necessary
   case object GetStatistics extends AxisRequest
+
   case object PublishAxisUpdate extends AxisRequest
 
   trait AxisResponse
@@ -210,6 +215,8 @@ object SingleAxisSimulator {
   case object AxisFinished extends AxisResponse
   case class AxisUpdate(axisName: String, state: AxisState, current: Int, inLowLimit: Boolean, inHighLimit: Boolean, inHomed: Boolean) extends AxisResponse
   case class AxisFailure(reason: String) extends AxisResponse
+
+  // sm - this may not be necessary
   case class AxisStatistics(axisName: String, initCount: Int, moveCount: Int, homeCount: Int, limitCount: Int, successCount: Int, failureCount: Int, cancelCount: Int) extends AxisResponse {
     override def toString = s"name: $axisName, inits: $initCount, moves: $moveCount, homes: $homeCount, limits: $limitCount, success: $successCount, fails: $failureCount, cancels: $cancelCount"
   }

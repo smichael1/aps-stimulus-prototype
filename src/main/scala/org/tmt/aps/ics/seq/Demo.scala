@@ -9,22 +9,22 @@ import csw.services.ccs.BlockingAssemblyClient
 import csw.services.ccs.CommandStatus.CommandResult
 import csw.services.events.EventService.EventMonitor
 import csw.services.events.{Event, EventService, TelemetryService}
-import csw.util.config.UnitsOfMeasure.{degrees, kilometers, millimeters}
+import csw.util.config.UnitsOfMeasure.{degrees, kilometers, millimeters, meters}
 
 import scala.concurrent.duration._
 
 /**
  * TMT Source Code: 12/4/16.
  */
-object Demo extends LazyLogging {
+object Demo extends App with LazyLogging {
   import csw.services.sequencer.SequencerEnv._
 
   implicit val timeout = Timeout(10.seconds)
 
-  val taName = "icsSingleAxisAssembly"
+  val taName = "singleAxis"
   val thName = "icsGalilHCD"
 
-  val componentPrefix: String = "org.tmt.aps.ics.singleAxis.assembly"
+  val componentPrefix: String = "org.tmt.aps.ics.singleAxis"
 
   val obsId: String = "testObsId"
 
@@ -36,6 +36,10 @@ object Demo extends LazyLogging {
   // Datum submit command
   val datumPrefix = s"$componentPrefix.datum"
   val datumCK: ConfigKey = datumPrefix
+
+  val stimulusSourceXKey = DoubleKey("stimulusSourceX")
+  val stimulusSourceYKey = DoubleKey("stimulusSourceY")
+  val stimulusSourceZKey = DoubleKey("stimulusSourceZ")
 
   val naRangeDistanceKey = DoubleKey("rangeDistance")
   val naRangeDistanceUnits = kilometers
@@ -54,6 +58,7 @@ object Demo extends LazyLogging {
   // Move submit command
   val movePrefix = s"$componentPrefix.move"
   val moveCK: ConfigKey = movePrefix
+
   def moveSC(position: Double): SetupConfig = SetupConfig(moveCK).add(stagePositionKey -> position withUnits stagePositionUnits)
 
   // Position submit command
@@ -61,27 +66,24 @@ object Demo extends LazyLogging {
   val positionCK: ConfigKey = positionPrefix
   def positionSC(rangeDistance: Double): SetupConfig = SetupConfig(positionCK).add(naRangeDistanceKey -> rangeDistance withUnits naRangeDistanceUnits)
 
-  // setElevation submit command
-  val setElevationPrefix = s"$componentPrefix.setElevation"
-  val setElevationCK: ConfigKey = setElevationPrefix
-  def setElevationSC(elevation: Double): SetupConfig = SetupConfig(setElevationCK).add(naElevation(elevation))
+  // Position stimulus 
+  val positionStimulusSourcePrefix = s"$componentPrefix.positionStimulusSource"
+  val positionStimulusSourceCk: ConfigKey = positionStimulusSourcePrefix
 
-  // Follow submit command
-  val followPrefix = s"$componentPrefix.follow"
-  val followCK: ConfigKey = followPrefix
-  val nssInUseKey = BooleanKey("nssInUse")
+  def commandStimulusPostion(commandX: Boolean, deltaX: Double, commandY: Boolean, deltaY: Double, commandZ: Boolean, deltaZ: Double): SetupConfig = {
 
-  // Follow command
-  def followSC(nssInUse: Boolean): SetupConfig = SetupConfig(followCK).add(nssInUseKey -> nssInUse)
-
-  // setAngle submit command
-  val setAnglePrefx = s"$componentPrefix.setAngle"
-  val setAngleCK: ConfigKey = setAnglePrefx
-  def setAngleSC(zenithAngle: Double): SetupConfig = SetupConfig(setAngleCK).add(za(zenithAngle))
+    val sc: SetupConfig = SetupConfig(positionStimulusSourceCk)
+    if (commandX) sc.add(stimulusSourceXKey -> deltaX withUnits meters)
+    if (commandY) sc.add(stimulusSourceYKey -> deltaY withUnits meters)
+    if (commandZ) sc.add(stimulusSourceZKey -> deltaZ withUnits degrees)
+    sc
+  }
 
   // Stop Command
   val stopPrefix = s"$componentPrefix.stop"
   val stopCK: ConfigKey = stopPrefix
+
+  println("got to 1")
 
   /**
    * Generic function to print any event
@@ -122,10 +124,16 @@ object Demo extends LazyLogging {
     tla.submit(Configurations.createSetupConfigArg(obsId, positionSC(pos)))
   }
 
+  // actually do something
+
+  val assemblyClient = getSingleAxis
+
+  val commandResult = onePos(assemblyClient, 60.0)
+
   /**
    * Subscribe to all StatusEvents published by the SingleAxisAssembly and print them to screen
    * @param ts a Telemetry Service reference
-   * @return an EventService referenc
+   * @return an EventService reference
    */
   def getStatusEvents(ts: TelemetryService): EventMonitor = ts.subscribe(evPrinter, false, s"$componentPrefix.*")
 

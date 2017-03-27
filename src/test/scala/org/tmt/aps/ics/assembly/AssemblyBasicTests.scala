@@ -75,7 +75,7 @@ class AssemblyBasicTests extends TestKit(AssemblyBasicTests.system) with Implici
   describe("low-level instrumented trombone assembly tests") {
 
     it("should lifecycle properly with a fake supervisor") {
-      // test2
+      // test1
       info("got to here 2")
 
       val fakeSupervisor = TestProbe()
@@ -83,13 +83,42 @@ class AssemblyBasicTests extends TestKit(AssemblyBasicTests.system) with Implici
 
       fakeSupervisor.expectMsg(Initialized)
 
-      info("got to here 3")
       fakeSupervisor.expectMsg(10.seconds, Started)
 
-      //fakeSupervisor.send(tla, Running)
+      fakeSupervisor.send(tla, Running)
 
-      //fakeSupervisor.send(tla, DoShutdown)
-      //fakeSupervisor.expectMsg(ShutdownComplete)
+      fakeSupervisor.send(tla, DoShutdown)
+      fakeSupervisor.expectMsg(ShutdownComplete)
+      logger.info("Shutdown Complete")
+      system.stop(tla)
+    }
+
+    it("testing a simple command") {
+      // test2
+
+      val fakeSupervisor = TestProbe()
+      val tla = newTrombone(fakeSupervisor.ref)
+      val fakeClient = TestProbe()
+
+      fakeSupervisor.expectMsg(Initialized)
+      fakeSupervisor.expectMsg(10.seconds, Started)
+      fakeSupervisor.send(tla, Running)
+
+      val testMove = 90.0
+      val sca = Configurations.createSetupConfigArg("testobsId", SetupConfig(initCK), positionSC(testMove))
+
+      fakeClient.send(tla, Submit(sca))
+
+      val acceptedMsg = fakeClient.expectMsgClass(3.seconds, classOf[CommandResult])
+      acceptedMsg.overall shouldBe Accepted
+      logger.info(s"Accepted: $acceptedMsg")
+
+      val completeMsg = fakeClient.expectMsgClass(3.seconds, classOf[CommandResult])
+      completeMsg.overall shouldBe AllCompleted
+      logger.info(s"CompleteMsg: $completeMsg")
+
+      fakeSupervisor.send(tla, DoShutdown)
+      fakeSupervisor.expectMsg(ShutdownComplete)
       logger.info("Shutdown Complete")
       system.stop(tla)
     }

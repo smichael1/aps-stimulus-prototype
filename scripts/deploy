@@ -2,4 +2,4 @@
 
 /usr/local/bin/sbt package
 
-cp target/scala-2.11/singleaxis_2.11-0.3-SNAPSHOT.jar /Users/smichaels/Desktop/singleaxis/lib
+cp target/scala-2.11/singleaxis_2.11-0.3-SNAPSHOT.jar /Users/smichaels/Desktop/singleaxis/lib/org.tmt.aps.ics.singleaxis_2.11-0.3-SNAPSHOT.jar

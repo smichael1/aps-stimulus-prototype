@@ -66,13 +66,12 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
       log.info("Connections: " + info.connections)
       trackerSubscriber ! LocationSubscriberActor.Subscribe
 
-      /*
       // This actor handles all telemetry and system event publishing
       val eventPublisher = context.actorOf(SingleAxisPublisher.props(assemblyContext, None))
 
       // Setup command handler for assembly - note that CommandHandler connects directly to galilHCD here, not state receiver
       commandHandler = context.actorOf(SingleAxisCommandHandler.props(assemblyContext, galilHCD, Some(eventPublisher)))
-
+      /*
       // This sets up the diagnostic data publisher - setting Var here
       diagPublsher = context.actorOf(DiagPublisher.props(assemblyContext, galilHCD, Some(eventPublisher)))
 			*/
@@ -107,6 +106,9 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
       log.info("becoming runningReceive")
       // Set the operational cmd state to "ready" according to spec-this is propagated to other actors
       //state(cmd = cmdReady)
+
+      log.info("COMMAND HANDLER = " + commandHandler)
+
       context.become(runningReceive)
     case x => log.error(s"Unexpected message in SingleAxisAssembly:initializingReceive: $x")
   }
@@ -123,7 +125,6 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
           log.info(s"Got actorRef: ${l.actorRef}")
           galilHCD = l.actorRef
           // When the HCD is located, Started is sent to Supervisor
-          supervisor ! Started
           checkServicesResolved
 
         case h: ResolvedHttpLocation =>
@@ -137,14 +138,14 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
             // Setting var here!
             eventService = Some(EventService.get(t.host, t.port))
             log.info(s"Event Service at: $eventService")
-            checkServicesResolved
+            //checkServicesResolved
           }
           if (t.connection == TelemetryService.telemetryServiceConnection()) {
             log.info(s"Assembly received TS connection: $t")
             // Setting var here!
             telemetryService = Some(TelemetryService.get(t.host, t.port))
             log.info(s"Telemetry Service at: $telemetryService")
-            checkServicesResolved
+            //checkServicesResolved
           }
           if (t.connection == AlarmService.alarmServiceConnection()) {
             implicit val timeout = Timeout(10.seconds)
@@ -152,7 +153,7 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
             // Setting var here!
             alarmService = Some(AlarmService.get(t.host, t.port))
             log.info(s"Alarm Service at: $alarmService")
-            checkServicesResolved
+            //checkServicesResolved
           }
 
         case u: Unresolved =>
@@ -169,7 +170,8 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
   def checkServicesResolved(): Unit = {
     // check all services and if all are resolved, send a started message to Supervisor.
     // only do this once.
-    supervisor ! Started
+
+    if (galilHCD != badHCDReference) supervisor ! Started
   }
 
   // Receive partial function used when in Running state
@@ -199,7 +201,7 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
     case DoRestart =>
       log.info("Received dorestart")
     case DoShutdown =>
-      log.info("Received doshutdown")
+      log.info("SingleAxisAssembly received doshutdown")
       // Ask our HCD to shutdown, then return complete
       galilHCD.foreach(_ ! DoShutdown)
       supervisor ! ShutdownComplete
@@ -224,14 +226,15 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
     val validations: ValidationList = validateSequenceConfigArg(sca)
     if (Validation.isAllValid(validations)) {
       // Create a SequentialExecutor to process all SetupConfigs
-      val executor = newExecutor(sca, commandOriginator)
-      executor ! StartTheSequence(commandHandler)
+      val sequentialExecutor = newSequentialExecutor(sca, commandOriginator)
+      log.info("about to send StartTheSequence. commandHandler = " + commandHandler)
+      sequentialExecutor ! StartTheSequence(commandHandler)
     }
     validations
   }
 
   /**
-   * Performs the initial validation of the incoming SetupConfgiArg
+   * Performs the initial validation of the incoming SetupConfigArg
    */
   private def validateSequenceConfigArg(sca: SetupConfigArg): ValidationList = {
     // Are all of the configs really for us and correctly formatted, etc?
@@ -242,7 +245,7 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
   }
 
   // Convenience method to create a new SequentialExecutor
-  private def newExecutor(sca: SetupConfigArg, commandOriginator: Option[ActorRef]): ActorRef =
+  private def newSequentialExecutor(sca: SetupConfigArg, commandOriginator: Option[ActorRef]): ActorRef =
     context.actorOf(SequentialExecutor.props(sca, commandOriginator))
 
   // Gets the assembly configurations from the config service, or a resource file, if not found and
