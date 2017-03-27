@@ -105,7 +105,7 @@ class AssemblyBasicTests extends TestKit(AssemblyBasicTests.system) with Implici
       fakeSupervisor.send(tla, Running)
 
       val testMove = 90.0
-      val sca = Configurations.createSetupConfigArg("testobsId", SetupConfig(initCK), positionSC(testMove))
+      val sca = Configurations.createSetupConfigArg("testobsId", SetupConfig(compHelper.initCK), SetupConfig(compHelper.datumCK), compHelper.positionSC(testMove))
 
       fakeClient.send(tla, Submit(sca))
 

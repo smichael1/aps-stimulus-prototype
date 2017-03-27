@@ -10,11 +10,12 @@ import csw.services.ccs.CommandStatus.CommandResult
 import csw.services.events.EventService.EventMonitor
 import csw.services.events.{Event, EventService, TelemetryService}
 import csw.util.config.UnitsOfMeasure.{degrees, kilometers, millimeters, meters}
+import org.tmt.aps.ics.assembly.SingleAxisComponentHelper
 
 import scala.concurrent.duration._
 
 object SingleAxisHelper extends LazyLogging {
-  
+
   import csw.services.sequencer.SequencerEnv._
 
   implicit val timeout = Timeout(10.seconds)
@@ -24,16 +25,11 @@ object SingleAxisHelper extends LazyLogging {
 
   val componentPrefix: String = "org.tmt.aps.ics.singleAxis"
 
+  val compHelper = SingleAxisComponentHelper(componentPrefix)
+
   val obsId: String = "testObsId"
 
-  // Public command configurations
-  // Init submit command
-  val initPrefix = s"$componentPrefix.init"
-  val initCK: ConfigKey = initPrefix
-
-  // Datum submit command
-  val datumPrefix = s"$componentPrefix.datum"
-  val datumCK: ConfigKey = datumPrefix
+  // all this below should go into SingleAxisCommandInfo
 
   val stimulusSourceXKey = DoubleKey("stimulusSourceX")
   val stimulusSourceYKey = DoubleKey("stimulusSourceY")
@@ -53,16 +49,7 @@ object SingleAxisHelper extends LazyLogging {
   val zenithAngleUnits = degrees
   def za(angle: Double): DoubleItem = zenithAngleKey -> angle withUnits zenithAngleUnits
 
-  // Move submit command
-  val movePrefix = s"$componentPrefix.move"
-  val moveCK: ConfigKey = movePrefix
-
-  def moveSC(position: Double): SetupConfig = SetupConfig(moveCK).add(stagePositionKey -> position withUnits stagePositionUnits)
-
-  // Position submit command
-  val positionPrefix = s"$componentPrefix.position"
-  val positionCK: ConfigKey = positionPrefix
-  def positionSC(rangeDistance: Double): SetupConfig = SetupConfig(positionCK).add(naRangeDistanceKey -> rangeDistance withUnits naRangeDistanceUnits)
+  def positionSC(rangeDistance: Double): SetupConfig = SetupConfig(compHelper.positionCK).add(naRangeDistanceKey -> rangeDistance withUnits naRangeDistanceUnits)
 
   // Position stimulus 
   val positionStimulusSourcePrefix = s"$componentPrefix.positionStimulusSource"
@@ -88,7 +75,7 @@ object SingleAxisHelper extends LazyLogging {
 
   // Test SetupConfigArgs
   // Init and Datum axis
-  val sca1 = Configurations.createSetupConfigArg(obsId, SetupConfig(initCK), SetupConfig(datumCK))
+  val sca1 = Configurations.createSetupConfigArg(obsId, SetupConfig(compHelper.initCK), SetupConfig(compHelper.datumCK))
 
   // Sends One Move
   val sca2 = Configurations.createSetupConfigArg(obsId, positionSC(100.0))
@@ -111,6 +98,16 @@ object SingleAxisHelper extends LazyLogging {
   def getGalilHcd: HcdClient = resolveHcd(thName)
 
   /**
+   * Initializes the SingleAxis Assembly
+   * @param tla the BlockingAssemblyClient returned by getSingleAxis
+   * @return CommandResult and the conclusion of execution
+   */
+  def init(tla: BlockingAssemblyClient): CommandResult = {
+    tla.submit(Configurations.createSetupConfigArg(obsId, SetupConfig(compHelper.initCK)))
+    tla.submit(Configurations.createSetupConfigArg(obsId, SetupConfig(compHelper.datumCK)))
+  }
+
+  /**
    * Send one position command to the SingleAxis Assembly
    * @param tla the BlockingAssemblyClient returned by getSingleAxis
    * @param pos some position as a double.  Should be around 90-200 or you will drive it to a limit
@@ -119,8 +116,6 @@ object SingleAxisHelper extends LazyLogging {
   def onePos(tla: BlockingAssemblyClient, pos: Double): CommandResult = {
     tla.submit(Configurations.createSetupConfigArg(obsId, positionSC(pos)))
   }
-
-
 
   /**
    * Subscribe to all StatusEvents published by the SingleAxisAssembly and print them to screen
@@ -152,5 +147,4 @@ object SingleAxisHelper extends LazyLogging {
     tla.client.assemblyController ! OperationsMode
   }
 
-  
 }

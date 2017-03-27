@@ -78,12 +78,12 @@ class SingleAxisCommandHandler(ac: AssemblyContext, galilHCDIn: Option[ActorRef]
     case ExecuteOne(sc, commandOriginator) =>
 
       sc.configKey match {
-        case ac.initCK =>
+        case ac.compHelper.initCK =>
           log.info("Init not fully implemented -- only sets state ready!")
           singleAxisStateActor ! SetState(cmdItem(cmdReady), moveItem(moveUnindexed))
           commandOriginator.foreach(_ ! Completed)
 
-        case ac.positionCK =>
+        case ac.compHelper.positionCK =>
           if (isHCDAvailable) {
             log.info("ExecuteOne: positionCK");
             val positionActorRef = context.actorOf(PositionCommand.props(ac, sc, galilHCD, currentState, Some(singleAxisStateActor)))
@@ -92,8 +92,17 @@ class SingleAxisCommandHandler(ac: AssemblyContext, galilHCDIn: Option[ActorRef]
             self ! CommandStart
           } else hcdNotAvailableResponse(commandOriginator)
 
+        case ac.compHelper.datumCK =>
+          if (isHCDAvailable) {
+            log.info("ExecuteOne: datumCK");
+            val datumActorRef = context.actorOf(DatumCommand.props(sc, galilHCD, currentState, Some(singleAxisStateActor)))
+
+            context.become(actorExecutingReceive(datumActorRef, commandOriginator))
+            self ! CommandStart
+          } else hcdNotAvailableResponse(commandOriginator)
+
         case otherCommand =>
-          log.error(s"SingleAxisCommandHandler:noFollowReceive received an unknown command: $otherCommand")
+          log.error(s"SingleAxisCommandHandler:noFollowReceive received an unknown command: $otherCommand  $otherCommand.prefix")
           commandOriginator.foreach(_ ! Invalid(UnsupportedCommandInStateIssue(s"""Single Axis assembly does not support the command \"${otherCommand.prefix}\" in the current state.""")))
       }
 
@@ -120,11 +129,11 @@ class SingleAxisCommandHandler(ac: AssemblyContext, galilHCDIn: Option[ActorRef]
         context.become(waitForExecuteReceive())
       }
 
-    case SetupConfig(ac.stopCK, _) =>
+    case SetupConfig(ac.compHelper.stopCK, _) =>
       log.debug("actorExecutingReceive: Stop CK")
       closeDownMotionCommand(currentCommand, commandOriginator)
 
-    case ExecuteOne(SetupConfig(ac.stopCK, _), _) =>
+    case ExecuteOne(SetupConfig(ac.compHelper.stopCK, _), _) =>
       log.debug("actorExecutingReceive: ExecuteOneStop")
       closeDownMotionCommand(currentCommand, commandOriginator)
 

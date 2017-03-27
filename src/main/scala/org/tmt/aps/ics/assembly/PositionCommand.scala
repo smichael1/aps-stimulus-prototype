@@ -28,7 +28,7 @@ class PositionCommand(ac: AssemblyContext, sc: SetupConfig, galilHCD: ActorRef, 
         val mySender = sender()
 
         // Note that units have already been verified here
-        val rangeDistance = sc(ac.naRangeDistanceKey)
+        val rangeDistance = sc(ac.compHelper.naRangeDistanceKey)
 
         // Convert range distance to encoder units from mm
         val stagePosition = Algorithms.rangeDistanceToStagePosition(rangeDistance.head)

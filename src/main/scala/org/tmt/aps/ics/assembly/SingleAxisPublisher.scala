@@ -111,8 +111,8 @@ class SingleAxisPublisher(assemblyContext: AssemblyContext, eventServiceIn: Opti
 	*/
 
   def publishAxisStats(telemetryService: Option[TelemetryService], axisName: StringItem, datumCount: IntItem, moveCount: IntItem, homeCount: IntItem, limitCount: IntItem, successCount: IntItem, failureCount: IntItem, cancelCount: IntItem): Unit = {
-    val ste = StatusEvent(axisStatsEventPrefix).madd(axisName, datumCount, moveCount, homeCount, limitCount, successCount, failureCount, cancelCount)
-    log.debug(s"Axis stats publish of $axisStatsEventPrefix: $ste")
+    val ste = StatusEvent(assemblyContext.compHelper.axisStatsEventPrefix).madd(axisName, datumCount, moveCount, homeCount, limitCount, successCount, failureCount, cancelCount)
+    log.debug(s"Axis stats publish of $assemblyContext.compHelper.axisStatsEventPrefix: $ste")
     telemetryService.foreach(_.publish(ste).onFailure {
       case ex => log.error(s"TrombonePublisher failed to publish trombone axis stats: $ste", ex)
     })
