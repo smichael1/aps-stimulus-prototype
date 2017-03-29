@@ -7,23 +7,23 @@ import csw.services.loc.LocationService.{Location, ResolvedTcpLocation, Unresolv
 import csw.services.loc.LocationSubscriberClient
 import csw.util.config._
 import csw.util.config.Events.{StatusEvent, SystemEvent}
+import org.tmt.aps.ics.assembly.SingleAxisStateActor.SingleAxisState
 
 /**
  * An actor that provides the publishing interface to the TMT Event Service and Telemetry Service.
  *
- * The TrombonePublisher receives messages from other actors that need to publish an event of some kind. The messages are
+ * The SingleAxisPublisher receives messages from other actors that need to publish an event of some kind. The messages are
  * repackaged as SystemEvents or StatusEvents as needed.
  *
- * Currently, this actor publishes the engr StatusEvent
- * and the state StatusEvent.  The engr
+ * Currently, this actor publishes the engr StatusEvent and the state StatusEvent.  The engr
  * StatusEvent is triggered by the arrival of an EngrUpdate message, and the state StatusEvent is triggered by the
- * TromboneState message.
+ * SingleAxisState message.
  *
- * The pubisher also publishes diagnostic data from the DiagPublisher as an axis state and statistics StatusEvent.
+ * The pubisher also publishes diagnostic data from the TelemetryGenerator as an axis state and statistics StatusEvent.
  *
  * Values in received messages are assumed to be correct and ready for publishing.
  *
- * @param assemblyContext the trombone AssemblyContext contains important shared values and useful functions
+ * @param assemblyContext the AssemblyContext contains important shared values and useful functions
  * @param eventServiceIn optional EventService for testing event service
  * @param telemetryServiceIn optional Telemetryservice for testing with telemetry service
  */
@@ -39,23 +39,25 @@ class SingleAxisPublisher(assemblyContext: AssemblyContext, eventServiceIn: Opti
   def receive: Receive = publishingEnabled(eventServiceIn, telemetryServiceIn)
 
   def publishingEnabled(eventService: Option[EventService], telemetryService: Option[TelemetryService]): Receive = {
-    /*  
+
     case EngrUpdate(rtcFocusError, stagePosition, zenithAngle) =>
       publishEngr(telemetryService, rtcFocusError, stagePosition, zenithAngle)
 
-    case ts: TromboneState =>
+    case ts: SingleAxisState =>
       publishState(telemetryService, ts)
 
     case AxisStateUpdate(axisName, position, state, inLowLimit, inHighLimit, inHome) =>
+      log.debug("SingleAxisPublisher:: AxisStateUpdate received")
       publishAxisState(telemetryService, axisName, position, state, inLowLimit, inHighLimit, inHome)
 
     case AxisStatsUpdate(axisName, datumCount, moveCount, homeCount, limitCount, successCount, failureCount, cancelCount) =>
+      log.debug("SingleAxisPublisher:: AxisStatsUpdate received")
       publishAxisStats(telemetryService, axisName, datumCount, moveCount, homeCount, limitCount, successCount, failureCount, cancelCount)
-		*/
+
     case location: Location =>
       handleLocations(location, eventService, telemetryService)
 
-    case x => log.error(s"Unexpected message in TrombonePublisher:publishingEnabled: $x")
+    case x => log.error(s"Unexpected message in SingleAxisPublisher:publishingEnabled: $x")
   }
 
   def handleLocations(location: Location, currentEventService: Option[EventService], currentTelemetryService: Option[TelemetryService]): Unit = {
@@ -78,43 +80,41 @@ class SingleAxisPublisher(assemblyContext: AssemblyContext, eventServiceIn: Opti
         if (u.connection == EventService.eventServiceConnection()) context.become(publishingEnabled(None, currentTelemetryService))
         else if (u.connection == TelemetryService.telemetryServiceConnection()) context.become(publishingEnabled(currentEventService, None))
       case default =>
-        log.info(s"TrombonePublisher received some other location: $default")
+        log.info(s"SingleAxisPublisher received some other location: $default")
     }
   }
 
-  /*
-
   private def publishEngr(telemetryService: Option[TelemetryService], rtcFocusError: DoubleItem, stagePosition: DoubleItem, zenithAngle: DoubleItem) = {
-    val ste = StatusEvent(engStatusEventPrefix).madd(rtcFocusError, stagePosition, zenithAngle)
-    log.info(s"Status publish of $engStatusEventPrefix: $ste")
+    val ste = StatusEvent(compHelper.engStatusEventPrefix).madd(rtcFocusError, stagePosition, zenithAngle)
+    log.info(s"Status publish of $compHelper.engStatusEventPrefix: $ste")
     telemetryService.foreach(_.publish(ste).onFailure {
-      case ex => log.error(s"TrombonePublisher failed to publish engr event: $ste", ex)
+      case ex => log.error(s"SingleAxisPublisher failed to publish engr event: $ste", ex)
     })
   }
 
-  private def publishState(telemetryService: Option[TelemetryService], ts: TromboneState) = {
+  private def publishState(telemetryService: Option[TelemetryService], ts: SingleAxisState) = {
     // We can do this for convenience rather than using TromboneStateHandler's stateReceive
-    val ste = StatusEvent(tromboneStateStatusEventPrefix).madd(ts.cmd, ts.move)
-    log.info(s"Status state publish of $tromboneStateStatusEventPrefix: $ste")
+    val ste = StatusEvent(compHelper.singleAxisStateStatusEventPrefix).madd(ts.cmd, ts.move)
+    log.info(s"Status state publish of $compHelper.singleAxisStateStatusEventPrefix: $ste")
     telemetryService.foreach(_.publish(ste).onFailure {
-      case ex => log.error(s"TrombonePublisher failed to publish trombone state: $ste", ex)
+      case ex => log.error(s"SingleAxisPublisher failed to publish single axis state: $ste", ex)
     })
   }
 
   private def publishAxisState(telemetryService: Option[TelemetryService], axisName: StringItem, position: IntItem, state: ChoiceItem, inLowLimit: BooleanItem, inHighLimit: BooleanItem, inHome: BooleanItem) = {
-    val ste = StatusEvent(axisStateEventPrefix).madd(axisName, position, state, inLowLimit, inHighLimit, inHome)
-    log.debug(s"Axis state publish of $axisStateEventPrefix: $ste")
+    val ste = StatusEvent(compHelper.axisStateEventPrefix).madd(axisName, position, state, inLowLimit, inHighLimit, inHome)
+    log.debug(s"Axis state publish of $compHelper.axisStateEventPrefix: $ste")
+    log.debug(s"telemetry service = $telemetryService")
     telemetryService.foreach(_.publish(ste).onFailure {
-      case ex => log.error(s"TrombonePublisher failed to publish trombone axis state: $ste", ex)
+      case ex => log.error(s"SingleAxisPublisher failed to publish single axis state: $ste", ex)
     })
   }
-	*/
 
   def publishAxisStats(telemetryService: Option[TelemetryService], axisName: StringItem, datumCount: IntItem, moveCount: IntItem, homeCount: IntItem, limitCount: IntItem, successCount: IntItem, failureCount: IntItem, cancelCount: IntItem): Unit = {
     val ste = StatusEvent(assemblyContext.compHelper.axisStatsEventPrefix).madd(axisName, datumCount, moveCount, homeCount, limitCount, successCount, failureCount, cancelCount)
     log.debug(s"Axis stats publish of $assemblyContext.compHelper.axisStatsEventPrefix: $ste")
     telemetryService.foreach(_.publish(ste).onFailure {
-      case ex => log.error(s"TrombonePublisher failed to publish trombone axis stats: $ste", ex)
+      case ex => log.error(s"SingleAxisPublisher failed to publish single axis stats: $ste", ex)
     })
   }
 

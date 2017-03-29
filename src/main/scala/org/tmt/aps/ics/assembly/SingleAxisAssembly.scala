@@ -23,6 +23,8 @@ import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 import scala.language.postfixOps
 
+import scala.concurrent._
+
 /**
  * Top Level Actor for Single Axis Assembly
  *
@@ -48,7 +50,7 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
 
   private val trackerSubscriber = context.actorOf(LocationSubscriberActor.props)
 
-  private var diagPublsher: ActorRef = _
+  private var telemetryGenerator: ActorRef = _
 
   private var commandHandler: ActorRef = _
 
@@ -71,10 +73,9 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
 
       // Setup command handler for assembly - note that CommandHandler connects directly to galilHCD here, not state receiver
       commandHandler = context.actorOf(SingleAxisCommandHandler.props(assemblyContext, galilHCD, Some(eventPublisher)))
-      /*
+
       // This sets up the diagnostic data publisher - setting Var here
-      diagPublsher = context.actorOf(DiagPublisher.props(assemblyContext, galilHCD, Some(eventPublisher)))
-			*/
+      telemetryGenerator = context.actorOf(TelemetryGenerator.props(assemblyContext, galilHCD, Some(eventPublisher)))
 
       // This tracks the HCD
       LocationSubscriberActor.trackConnections(info.connections, trackerSubscriber)
@@ -179,17 +180,16 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
   def runningReceive: Receive = locationReceive orElse controllerReceive orElse lifecycleReceivePF orElse unhandledPF
 
   // Receive partial function for handling the diagnostic commands
-  /*
+
   def diagReceive: Receive = {
     case DiagnosticMode(hint) =>
       log.debug(s"Received diagnostic mode: $hint")
-      diagPublsher ! DiagPublisher.DiagnosticState
+      telemetryGenerator ! TelemetryGenerator.DiagnosticState
     case OperationsMode => {
       log.debug(s"Received operations mode")
-      diagPublsher ! DiagPublisher.OperationsState
+      telemetryGenerator ! TelemetryGenerator.OperationsState
     }
   }
-  */
 
   // Receive partial function to handle runtime lifecycle messages
   def lifecycleReceivePF: Receive = {
