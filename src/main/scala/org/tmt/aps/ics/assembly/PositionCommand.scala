@@ -28,13 +28,13 @@ class PositionCommand(ac: AssemblyContext, sc: SetupConfig, galilHCD: ActorRef, 
         val mySender = sender()
 
         // Note that units have already been verified here
-        val rangeDistance = sc(ac.compHelper.naRangeDistanceKey)
+        val distance = sc(ac.compHelper.stimulusPupilXKey)
 
-        // Convert range distance to encoder units from mm
-        val stagePosition = Algorithms.rangeDistanceToStagePosition(rangeDistance.head)
-        val encoderPosition = Algorithms.stagePositionToEncoder(ac.controlConfig, stagePosition)
+        // Convert distance to encoder units from mm
+        val stagePosition = Converter.distanceToStagePosition(distance.head)
+        val encoderPosition = Converter.stagePositionToEncoder(ac.controlConfig, stagePosition)
 
-        log.info(s"Using rangeDistance: ${rangeDistance.head} to get stagePosition: $stagePosition to encoder: $encoderPosition")
+        log.info(s"Using rangeDistance: ${distance.head} to get stagePosition: $stagePosition to encoder: $encoderPosition")
 
         val stateMatcher = posMatcher(encoderPosition)
         // Position key is encoder units

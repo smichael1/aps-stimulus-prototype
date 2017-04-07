@@ -15,7 +15,7 @@ import csw.services.ccs.CommandStatus.CommandResult
  */
 case class SingleAxisComponentHelper(componentPrefix: String) {
 
-  // Public command configurations - this is where we define configurations to be used by component tests
+  // Public command configurations - this is where we define configurations to be used by component tests, validation and client usage
   // Init submit command
   val initPrefix = s"$componentPrefix.init"
   val initCK: ConfigKey = initPrefix
@@ -32,7 +32,7 @@ case class SingleAxisComponentHelper(componentPrefix: String) {
   val stopPrefix = s"$componentPrefix.stop"
   val stopCK: ConfigKey = stopPrefix
 
-  def positionSC(rangeDistance: Double): SetupConfig = SetupConfig(positionCK).add(naRangeDistanceKey -> rangeDistance withUnits naRangeDistanceUnits)
+  def positionSC(stimulusPupilX: Double): SetupConfig = SetupConfig(positionCK).add(stimulusPupilXKey -> stimulusPupilX withUnits stimulusPupilXUnits)
 
   /**
    * Send one position command to the SingleAxis Assembly
@@ -57,9 +57,11 @@ case class SingleAxisComponentHelper(componentPrefix: String) {
   val allCommandKeys: List[ConfigKey] = List(positionCK)
 
   // Shared key values --
-  val naRangeDistanceKey = DoubleKey("rangeDistance")
-  val naRangeDistanceUnits = kilometers
-  def rd(rangedistance: Double): DoubleItem = naRangeDistanceKey -> rangedistance withUnits naRangeDistanceUnits
+  //val naRangeDistanceKey = DoubleKey("rangeDistance")
+  //val naRangeDistanceUnits = kilometers
+
+  val stimulusPupilXKey = DoubleKey("stimulusPupilX")
+  val stimulusPupilXUnits = meters
 
   val stagePositionKey = DoubleKey("stagePosition")
   val stagePositionUnits = millimeters
