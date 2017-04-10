@@ -17,7 +17,7 @@ object Converter {
    * Configuration values determine what the range coordinates and stage coordinates will be and how to transform
    * TODO: implement.  For now just convert from meters to mm
    * TODO: do we have conversion constants?  Will we need them?  Do we want to be passing Double, Int, etc or a unit based object?
-   * 
+   *
    * @param distance (units to be determined by configuration)
    * @return stage position in millimeters
    */
@@ -25,7 +25,7 @@ object Converter {
 
   /**
    * Configuration values are passed in the controlConfig, which will be used to limit the values passed and define the position scale
-   * @param stagePosition is the value of the stage position in millimeters 
+   * @param stagePosition is the value of the stage position in millimeters
    * @return position in units of encoder
    */
   def stagePositionToEncoder(controlConfig: SingleAxisControlConfig, stagePosition: Double): Int = {
