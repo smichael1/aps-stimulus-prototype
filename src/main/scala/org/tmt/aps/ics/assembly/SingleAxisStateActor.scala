@@ -1,12 +1,12 @@
 package org.tmt.aps.ics.assembly
 
-import akka.actor.{Actor, ActorLogging, Props}
+import akka.actor.{Actor, ActorRef, ActorLogging, Props}
 import csw.util.config._
 
 /**
  * Note that this state actor is not a listener for events. Only the client listens.
  */
-class SingleAxisStateActor extends Actor with ActorLogging {
+class SingleAxisStateActor(publisher: ActorRef) extends Actor with ActorLogging {
 
   import SingleAxisStateActor._
 
@@ -14,6 +14,8 @@ class SingleAxisStateActor extends Actor with ActorLogging {
   //context.system.eventStream.subscribe(self, classOf[SingleAxisState])
 
   def receive = stateReceive(SingleAxisState(cmdDefault, moveDefault))
+
+  publisher ! SingleAxisState(cmdDefault, moveDefault) // publish initial state
 
   /**
    * This stateReceive must be added to the actor's receive chain.
@@ -25,7 +27,8 @@ class SingleAxisStateActor extends Actor with ActorLogging {
 
     case SetState(ts) =>
       if (ts != currentState) {
-        context.system.eventStream.publish(ts)
+        context.system.eventStream.publish(ts) // publish to other subcomponents of this assembly that mixin the trait SingleAxisStateClient
+        publisher ! ts // publish the assembly state change to the world
         context.become(stateReceive(ts))
       }
 
@@ -61,7 +64,7 @@ trait SingleAxisStateClient {
 
 object SingleAxisStateActor {
 
-  def props(): Props = Props(new SingleAxisStateActor())
+  def props(telemetryGenerator: ActorRef): Props = Props(new SingleAxisStateActor(telemetryGenerator))
 
   // Keys for state telemetry item
   val cmdUninitialized = Choice("uninitialized")

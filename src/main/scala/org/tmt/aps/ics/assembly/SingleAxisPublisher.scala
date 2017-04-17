@@ -19,7 +19,7 @@ import org.tmt.aps.ics.assembly.SingleAxisStateActor.SingleAxisState
  * StatusEvent is triggered by the arrival of an EngrUpdate message, and the state StatusEvent is triggered by the
  * SingleAxisState message.
  *
- * The pubisher also publishes diagnostic data from the TelemetryGenerator as an axis state and statistics StatusEvent.
+ * The publisher also publishes diagnostic data from the TelemetryGenerator as an axis state and statistics StatusEvent.
  *
  * Values in received messages are assumed to be correct and ready for publishing.
  *
@@ -104,7 +104,6 @@ class SingleAxisPublisher(assemblyContext: AssemblyContext, eventServiceIn: Opti
   private def publishAxisState(telemetryService: Option[TelemetryService], axisName: StringItem, position: IntItem, state: ChoiceItem, inLowLimit: BooleanItem, inHighLimit: BooleanItem, inHome: BooleanItem) = {
     val ste = StatusEvent(compHelper.axisStateEventPrefix).madd(axisName, position, state, inLowLimit, inHighLimit, inHome)
     log.debug(s"Axis state publish of $compHelper.axisStateEventPrefix: $ste")
-    log.debug(s"telemetry service = $telemetryService")
     telemetryService.foreach(_.publish(ste).onFailure {
       case ex => log.error(s"SingleAxisPublisher failed to publish single axis state: $ste", ex)
     })
@@ -136,4 +135,5 @@ object SingleAxisPublisher {
 
   case class AxisStatsUpdate(axisName: StringItem, initCount: IntItem, moveCount: IntItem, homeCount: IntItem, limitCount: IntItem, successCount: IntItem, failCount: IntItem, cancelCount: IntItem)
 
+  case class AssemblyStateUpdate(assemblyName: StringItem, cmdState: ChoiceItem, moveState: ChoiceItem)
 }

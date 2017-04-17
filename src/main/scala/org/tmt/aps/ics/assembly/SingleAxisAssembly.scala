@@ -71,11 +71,11 @@ class SingleAxisAssembly(val info: AssemblyInfo, supervisor: ActorRef) extends A
       // This actor handles all telemetry and system event publishing
       val eventPublisher = context.actorOf(SingleAxisPublisher.props(assemblyContext, None))
 
-      // Setup command handler for assembly - note that CommandHandler connects directly to galilHCD here, not state receiver
-      commandHandler = context.actorOf(SingleAxisCommandHandler.props(assemblyContext, galilHCD, Some(eventPublisher)))
-
       // This sets up the diagnostic data publisher - setting Var here
       telemetryGenerator = context.actorOf(TelemetryGenerator.props(assemblyContext, galilHCD, Some(eventPublisher)))
+
+      // Setup command handler for assembly - note that CommandHandler connects directly to galilHCD here, not state receiver
+      commandHandler = context.actorOf(SingleAxisCommandHandler.props(assemblyContext, galilHCD, eventPublisher))
 
       // This tracks the HCD
       LocationSubscriberActor.trackConnections(info.connections, trackerSubscriber)

@@ -2,7 +2,7 @@ package org.tmt.aps.ics.assembly
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Cancellable, Props}
 import org.tmt.aps.ics.assembly.SingleAxisAssembly.UpdateGalilHCD
-import org.tmt.aps.ics.assembly.SingleAxisPublisher.{AxisStateUpdate, AxisStatsUpdate}
+import org.tmt.aps.ics.assembly.SingleAxisPublisher.{AxisStateUpdate, AxisStatsUpdate, AssemblyStateUpdate}
 import org.tmt.aps.ics.hcd.GalilHCD
 import csw.services.ccs.HcdController
 import csw.services.loc.LocationService._
@@ -10,6 +10,9 @@ import csw.services.loc.LocationSubscriberClient
 import csw.services.ts.TimeService.TimeServiceScheduler
 import csw.util.akka.PublisherActor
 import csw.util.config.StateVariable.CurrentState
+import org.tmt.aps.ics.assembly.SingleAxisStateActor.SingleAxisState
+import org.tmt.aps.ics.assembly.SingleAxisStateActor._
+import csw.util.config.{StringKey, StringItem}
 
 /**
  * TelemetryGenerator provides diagnostic telemetry in the form of two events. TelemetryGenerator operates in the 'OperationsState' or 'DiagnosticState'.
@@ -82,6 +85,9 @@ class TelemetryGenerator(assemblyContext: AssemblyContext, galilHCDIn: Option[Ac
     case UpdateGalilHCD(galilHCDUpdate) =>
       context.become(operationsReceive(stateMessageCounter, galilHCDUpdate))
 
+    case sas: SingleAxisState =>
+      publishAssemblyStateUpdate(sas)
+
     case location: Location =>
       location match {
         case rloc: ResolvedAkkaLocation =>
@@ -145,6 +151,9 @@ class TelemetryGenerator(assemblyContext: AssemblyContext, galilHCDIn: Option[Ac
       // The actor ref of the trombone HCD has changed
       context.become(diagnosticReceive(stateMessageCounter, galilHCDUpdate, cancelToken))
 
+    case sas: SingleAxisState =>
+      publishAssemblyStateUpdate(sas)
+
     case location: Location =>
       location match {
         case rloc: ResolvedAkkaLocation =>
@@ -181,6 +190,12 @@ class TelemetryGenerator(assemblyContext: AssemblyContext, galilHCDIn: Option[Ac
   private def publishStatsUpdate(cs: CurrentState): Unit = {
     log.debug("publish diag stats")
     eventPublisher.foreach(_ ! AxisStatsUpdate(cs(axisNameKey), cs(datumCountKey), cs(moveCountKey), cs(homeCountKey), cs(limitCountKey), cs(successCountKey), cs(failureCountKey), cs(cancelCountKey)))
+  }
+
+  private def publishAssemblyStateUpdate(sas: SingleAxisState): Unit = {
+    log.debug(s"publish current assembly state: $sas")
+    log.debug(s"event publisher: $eventPublisher")
+    eventPublisher.foreach(_ ! sas)
   }
 
 }

@@ -28,7 +28,7 @@ object AssemblyClientHelper extends LazyLogging {
    * @param ts a Telemetry Service reference
    * @return an EventService reference
    */
-  def getStatusEvents(ts: TelemetryService, componentPrefix: String): EventMonitor = ts.subscribe(evPrinter, false, s"$componentPrefix.*")
+  def getStatusEvents(ts: TelemetryService, componentPrefix: String): EventMonitor = ts.subscribe(evPrinter, true, s"$componentPrefix.*")
 
   /**
    * Subscribe to all SystemEvents published by SingleAxisAssembly and print them to the screen

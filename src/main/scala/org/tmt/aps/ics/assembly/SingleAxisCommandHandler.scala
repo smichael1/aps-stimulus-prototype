@@ -22,7 +22,7 @@ import scala.concurrent.duration._
 /**
  * TMT Source Code: 9/21/16.
  */
-class SingleAxisCommandHandler(ac: AssemblyContext, galilHCDIn: Option[ActorRef], allEventPublisher: Option[ActorRef])
+class SingleAxisCommandHandler(ac: AssemblyContext, galilHCDIn: Option[ActorRef], singleAxisPublisher: ActorRef)
     extends Actor with ActorLogging with LocationSubscriberClient with SingleAxisStateClient {
 
   import SingleAxisStateActor._
@@ -39,7 +39,7 @@ class SingleAxisCommandHandler(ac: AssemblyContext, galilHCDIn: Option[ActorRef]
   var eventService: Option[EventService] = badEventService
 
   // The actor for managing the persistent assembly state as defined in the spec is here, it is passed to each command
-  private val singleAxisStateActor = context.actorOf(SingleAxisStateActor.props())
+  private val singleAxisStateActor = context.actorOf(SingleAxisStateActor.props(singleAxisPublisher))
 
   def receive: Receive = waitForExecuteReceive()
 
@@ -151,8 +151,8 @@ class SingleAxisCommandHandler(ac: AssemblyContext, galilHCDIn: Option[ActorRef]
 
 object SingleAxisCommandHandler {
 
-  def props(assemblyContext: AssemblyContext, galilHCDIn: Option[ActorRef], allEventPublisher: Option[ActorRef]) =
-    Props(new SingleAxisCommandHandler(assemblyContext, galilHCDIn, allEventPublisher))
+  def props(assemblyContext: AssemblyContext, galilHCDIn: Option[ActorRef], telemetryGenerator: ActorRef) =
+    Props(new SingleAxisCommandHandler(assemblyContext, galilHCDIn, telemetryGenerator))
 
   def executeMatch(context: ActorContext, stateMatcher: StateMatcher, currentStateSource: ActorRef, replyTo: Option[ActorRef] = None,
                    timeout: Timeout = Timeout(5.seconds))(codeBlock: PartialFunction[CommandStatus, Unit]): Unit = {

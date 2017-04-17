@@ -7,3 +7,5 @@ cp target/scala-2.11/singleaxis_2.11-0.3-SNAPSHOT.jar /Users/smichaels/Desktop/s
 cp scripts/singleaxis /Users/smichaels/Desktop/singleaxis/bin/singleaxis
 
 cp scripts/singleaxisclient /Users/smichaels/Desktop/singleaxis/bin/singleaxisclient
+
+cp scripts/singleaxisclient2 /Users/smichaels/Desktop/singleaxis/bin/singleaxisclient2
