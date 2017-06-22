@@ -7,7 +7,7 @@ import csw.services.pkg.Component.AssemblyInfo
 import csw.util.config.Configurations.{ConfigKey, SetupConfig}
 import csw.util.config.UnitsOfMeasure.{degrees, kilometers, micrometers, millimeters, meters}
 import csw.services.ccs.BlockingAssemblyClient
-import csw.util.config.{BooleanKey, Configurations, DoubleItem, DoubleKey, IntItem, IntKey, DoubleArrayItem, DoubleArrayKey, DoubleArray}
+import csw.util.config.{BooleanKey, Configurations, DoubleItem, DoubleKey, IntItem, IntKey, DoubleArrayItem, DoubleArrayKey, DoubleArray, StringKey}
 import csw.services.ccs.CommandStatus.CommandResult
 
 /**
@@ -35,6 +35,10 @@ case class SingleAxisComponentHelper(componentPrefix: String) {
   // SingleAxisAssembly position setup config
   def positionSC(stimulusPupilX: Double): SetupConfig = SetupConfig(positionCK).add(stimulusPupilXKey -> stimulusPupilX withUnits stimulusPupilXUnits)
 
+  
+  val configurationNameKey = StringKey("initConfigurationName")
+  val configurationVersionKey = StringKey("initConfigurationVersion")
+  
   /**
    * Send one position command to the SingleAxis Assembly
    * @param tla the BlockingAssemblyClient returned by getSingleAxis
