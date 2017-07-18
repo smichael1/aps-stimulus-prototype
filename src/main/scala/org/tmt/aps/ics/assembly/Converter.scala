@@ -35,4 +35,14 @@ object Converter {
     pinnedEncValue
   }
 
+  /**
+   * Configuration values are passed in the controlConfig, which will be used to limit the values passed and define the position scale
+   * @param stagePosition is the value of the stage position in millimeters
+   * @return position in units of encoder
+   */
+  def encoderToStagePosition(controlConfig: SingleAxisControlConfig, encoderCounts: Int): Double = {
+    // Scale value to be between 200 and 1000 encoder
+    ((encoderCounts - controlConfig.minStageEncoder) / controlConfig.positionScale) + controlConfig.stageZero
+
+  }
 }

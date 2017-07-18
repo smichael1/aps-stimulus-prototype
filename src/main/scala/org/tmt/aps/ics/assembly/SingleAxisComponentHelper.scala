@@ -1,7 +1,7 @@
 package org.tmt.aps.ics.assembly
 
 import com.typesafe.config.Config
-import org.tmt.aps.ics.assembly.AssemblyContext.{SingleAxisCalculationConfig, SingleAxisControlConfig}
+//import org.tmt.aps.ics.assembly.AssemblyContext.{SingleAxisCalculationConfig, SingleAxisControlConfig}
 import csw.services.loc.ComponentId
 import csw.services.pkg.Component.AssemblyInfo
 import csw.util.config.Configurations.{ConfigKey, SetupConfig}
@@ -35,10 +35,9 @@ case class SingleAxisComponentHelper(componentPrefix: String) {
   // SingleAxisAssembly position setup config
   def positionSC(stimulusPupilX: Double): SetupConfig = SetupConfig(positionCK).add(stimulusPupilXKey -> stimulusPupilX withUnits stimulusPupilXUnits)
 
-  
   val configurationNameKey = StringKey("initConfigurationName")
   val configurationVersionKey = StringKey("initConfigurationVersion")
-  
+
   /**
    * Send one position command to the SingleAxis Assembly
    * @param tla the BlockingAssemblyClient returned by getSingleAxis

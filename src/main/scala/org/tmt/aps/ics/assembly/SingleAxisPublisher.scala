@@ -46,9 +46,9 @@ class SingleAxisPublisher(assemblyContext: AssemblyContext, eventServiceIn: Opti
     case ts: SingleAxisState =>
       publishState(telemetryService, ts)
 
-    case AxisStateUpdate(axisName, position, state, inLowLimit, inHighLimit, inHome) =>
+    case AxisStateUpdate(axisName, position, state, inLowLimit, inHighLimit, inHome, stagePosition) =>
       log.debug("SingleAxisPublisher:: AxisStateUpdate received")
-      publishAxisState(telemetryService, axisName, position, state, inLowLimit, inHighLimit, inHome)
+      publishAxisState(telemetryService, axisName, position, state, inLowLimit, inHighLimit, inHome, stagePosition)
 
     case AxisStatsUpdate(axisName, datumCount, moveCount, homeCount, limitCount, successCount, failureCount, cancelCount) =>
       log.debug("SingleAxisPublisher:: AxisStatsUpdate received")
@@ -101,8 +101,8 @@ class SingleAxisPublisher(assemblyContext: AssemblyContext, eventServiceIn: Opti
     })
   }
 
-  private def publishAxisState(telemetryService: Option[TelemetryService], axisName: StringItem, position: IntItem, state: ChoiceItem, inLowLimit: BooleanItem, inHighLimit: BooleanItem, inHome: BooleanItem) = {
-    val ste = StatusEvent(compHelper.axisStateEventPrefix).madd(axisName, position, state, inLowLimit, inHighLimit, inHome)
+  private def publishAxisState(telemetryService: Option[TelemetryService], axisName: StringItem, position: IntItem, state: ChoiceItem, inLowLimit: BooleanItem, inHighLimit: BooleanItem, inHome: BooleanItem, stagePosition: DoubleItem) = {
+    val ste = StatusEvent(compHelper.axisStateEventPrefix).madd(axisName, position, state, inLowLimit, inHighLimit, inHome, stagePosition)
     log.debug(s"Axis state publish of $compHelper.axisStateEventPrefix: $ste")
     telemetryService.foreach(_.publish(ste).onFailure {
       case ex => log.error(s"SingleAxisPublisher failed to publish single axis state: $ste", ex)
@@ -131,7 +131,7 @@ object SingleAxisPublisher {
    */
   case class EngrUpdate(focusError: DoubleItem, stagePosition: DoubleItem, zenithAngle: DoubleItem)
 
-  case class AxisStateUpdate(axisName: StringItem, position: IntItem, state: ChoiceItem, inLowLimit: BooleanItem, inHighLimit: BooleanItem, inHome: BooleanItem)
+  case class AxisStateUpdate(axisName: StringItem, position: IntItem, state: ChoiceItem, inLowLimit: BooleanItem, inHighLimit: BooleanItem, inHome: BooleanItem, stagePosition: DoubleItem)
 
   case class AxisStatsUpdate(axisName: StringItem, initCount: IntItem, moveCount: IntItem, homeCount: IntItem, limitCount: IntItem, successCount: IntItem, failCount: IntItem, cancelCount: IntItem)
 

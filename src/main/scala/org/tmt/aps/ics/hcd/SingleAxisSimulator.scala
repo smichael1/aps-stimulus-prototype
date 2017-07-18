@@ -312,9 +312,10 @@ object MotionWorker {
   def calcNumSteps(start: Int, end: Int): Int = {
     val diff = Math.abs(start - end)
     if (diff <= 5) 1
-    else if (diff <= 20) 2
-    else if (diff <= 500) 5
-    else 10
+    else if (diff <= 20) 6
+    else if (diff <= 500) 11
+    else 21
+
   }
 
   def calcStepSize(current: Int, destination: Int, steps: Int): Int = (destination - current) / steps

@@ -13,6 +13,10 @@ import csw.util.config.StateVariable.CurrentState
 import org.tmt.aps.ics.assembly.SingleAxisStateActor.SingleAxisState
 import org.tmt.aps.ics.assembly.SingleAxisStateActor._
 import csw.util.config.{StringKey, StringItem}
+import org.tmt.aps.ics.assembly.Converter._
+import org.tmt.aps.ics.assembly.AssemblyContext.{SingleAxisControlConfig}
+import csw.util.config.UnitsOfMeasure.{degrees, kilometers, micrometers, millimeters, meters}
+import csw.util.config.{BooleanKey, Configurations, DoubleItem, DoubleKey, IntItem, IntKey, DoubleArrayItem, DoubleArrayKey, DoubleArray, StringKey}
 
 /**
  * TelemetryGenerator provides diagnostic telemetry in the form of two events. TelemetryGenerator operates in the 'OperationsState' or 'DiagnosticState'.
@@ -69,7 +73,8 @@ class TelemetryGenerator(assemblyContext: AssemblyContext, galilHCDIn: Option[Ac
    */
   def operationsReceive(stateMessageCounter: Int, tromboneHCD: Option[ActorRef]): Receive = {
     case cs: CurrentState if cs.configKey == GalilHCD.axisStateCK =>
-      if (stateMessageCounter % operationsSkipCount == 0) publishStateUpdate(cs)
+      //if (stateMessageCounter % operationsSkipCount == 0) publishStateUpdate(cs)
+      publishStateUpdate(cs)
       context.become(operationsReceive(stateMessageCounter + 1, tromboneHCD))
 
     case cs: CurrentState if cs.configKey == GalilHCD.axisStatsCK => // No nothing
@@ -184,7 +189,19 @@ class TelemetryGenerator(assemblyContext: AssemblyContext, galilHCDIn: Option[Ac
   private def publishStateUpdate(cs: CurrentState): Unit = {
     log.debug(s"publish current state: $cs")
     log.debug(s"event publisher: $eventPublisher")
-    eventPublisher.foreach(_ ! AxisStateUpdate(cs(axisNameKey), cs(positionKey), cs(stateKey), cs(inLowLimitKey), cs(inHighLimitKey), cs(inHomeKey)))
+
+    // TODO: need to convert position from postionKey from encoder to meters
+    val posItem = cs(positionKey);
+    val posEnc = posItem.values(0);
+    // convert to meters
+    val stagePosition: Double = encoderToStagePosition(assemblyContext.controlConfig, posEnc)
+
+    val stagePositionKey = DoubleKey("stagePosition")
+    val stagePositionUnits = millimeters
+
+    val stagePositionItem = stagePositionKey -> stagePosition withUnits stagePositionUnits
+
+    eventPublisher.foreach(_ ! AxisStateUpdate(cs(axisNameKey), cs(positionKey), cs(stateKey), cs(inLowLimitKey), cs(inHighLimitKey), cs(inHomeKey), stagePositionItem))
   }
 
   private def publishStatsUpdate(cs: CurrentState): Unit = {
